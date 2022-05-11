@@ -1,0 +1,4202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadialSlider component Match Snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {},
+      Object {
+        "height": 246,
+        "width": 246,
+      },
+    ]
+  }
+  testID="slider-view"
+>
+  <RNSVGSvgView
+    align="none"
+    bbHeight={271}
+    bbWidth={271}
+    focusable={false}
+    height={271}
+    meetOrSlice={0}
+    minX={-25}
+    minY={-25}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 271,
+          "width": 271,
+        },
+      ]
+    }
+    vbHeight={296}
+    vbWidth={296}
+    width={271}
+  >
+    <RNSVGGroup>
+      <RNSVGDefs>
+        <RNSVGLinearGradient
+          gradient={
+            Array [
+              0,
+              -21338,
+              1,
+              -1423360,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="gradient"
+          x1="0%"
+          x2="100%"
+          y1="100%"
+          y2="0%"
+        />
+      </RNSVGDefs>
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            -20,
+            40,
+          ]
+        }
+      >
+        <RNSVGText
+          content={null}
+          dx={Array []}
+          dy={Array []}
+          fill={4281545523}
+          font={
+            Object {
+              "fontSize": 12,
+            }
+          }
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        >
+          <RNSVGTSpan
+            content="0"
+            dx={Array []}
+            dy={Array []}
+            font={Object {}}
+            rotate={Array []}
+            x={
+              Array [
+                36.39745962155614,
+              ]
+            }
+            y={
+              Array [
+                173,
+              ]
+            }
+          />
+        </RNSVGText>
+      </RNSVGGroup>
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            -10,
+            40,
+          ]
+        }
+      >
+        <RNSVGText
+          content={null}
+          dx={Array []}
+          dy={Array []}
+          fill={4281545523}
+          font={
+            Object {
+              "fontSize": 12,
+            }
+          }
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        >
+          <RNSVGTSpan
+            content="100"
+            dx={Array []}
+            dy={Array []}
+            font={Object {}}
+            rotate={Array []}
+            x={
+              Array [
+                209.60254037844385,
+              ]
+            }
+            y={
+              Array [
+                173,
+              ]
+            }
+          />
+        </RNSVGText>
+      </RNSVGGroup>
+      <RNSVGGroup>
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.8660254037844387,
+                  0.49999999999999994,
+                  -0.49999999999999994,
+                  -0.8660254037844387,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.8910065241883678,
+                  0.45399049973954686,
+                  -0.45399049973954686,
+                  -0.8910065241883678,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9135454576426008,
+                  0.40673664307580043,
+                  -0.40673664307580043,
+                  -0.9135454576426008,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9335804264972017,
+                  0.3583679495453002,
+                  -0.3583679495453002,
+                  -0.9335804264972017,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9510565162951535,
+                  0.3090169943749475,
+                  -0.3090169943749475,
+                  -0.9510565162951535,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9659258262890682,
+                  0.258819045102521,
+                  -0.258819045102521,
+                  -0.9659258262890682,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9781476007338057,
+                  0.20791169081775931,
+                  -0.20791169081775931,
+                  -0.9781476007338057,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9876883405951377,
+                  0.15643446504023098,
+                  -0.15643446504023098,
+                  -0.9876883405951377,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9945218953682733,
+                  0.10452846326765373,
+                  -0.10452846326765373,
+                  -0.9945218953682733,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9986295347545738,
+                  0.05233595624294381,
+                  -0.05233595624294381,
+                  -0.9986295347545738,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -1,
+                  1.2246467991473532e-16,
+                  -1.2246467991473532e-16,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9986295347545738,
+                  -0.052335956242943564,
+                  0.052335956242943564,
+                  -0.9986295347545738,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9945218953682733,
+                  -0.1045284632676535,
+                  0.1045284632676535,
+                  -0.9945218953682733,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9876883405951378,
+                  -0.15643446504023073,
+                  0.15643446504023073,
+                  -0.9876883405951378,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9781476007338056,
+                  -0.2079116908177595,
+                  0.2079116908177595,
+                  -0.9781476007338056,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9659258262890683,
+                  -0.2588190451025208,
+                  0.2588190451025208,
+                  -0.9659258262890683,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9510565162951536,
+                  -0.3090169943749473,
+                  0.3090169943749473,
+                  -0.9510565162951536,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9335804264972017,
+                  -0.35836794954530043,
+                  0.35836794954530043,
+                  -0.9335804264972017,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.9135454576426009,
+                  -0.4067366430758002,
+                  0.4067366430758002,
+                  -0.9135454576426009,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.8910065241883679,
+                  -0.4539904997395467,
+                  0.4539904997395467,
+                  -0.8910065241883679,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.8660254037844386,
+                  -0.5000000000000001,
+                  0.5000000000000001,
+                  -0.8660254037844386,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.838670567945424,
+                  -0.5446390350150271,
+                  0.5446390350150271,
+                  -0.838670567945424,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.8090169943749475,
+                  -0.587785252292473,
+                  0.587785252292473,
+                  -0.8090169943749475,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.7771459614569708,
+                  -0.6293203910498376,
+                  0.6293203910498376,
+                  -0.7771459614569708,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.7431448254773942,
+                  -0.6691306063588582,
+                  0.6691306063588582,
+                  -0.7431448254773942,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.7071067811865477,
+                  -0.7071067811865475,
+                  0.7071067811865475,
+                  -0.7071067811865477,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.6691306063588581,
+                  -0.7431448254773944,
+                  0.7431448254773944,
+                  -0.6691306063588581,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.6293203910498378,
+                  -0.7771459614569706,
+                  0.7771459614569706,
+                  -0.6293203910498378,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.5877852522924732,
+                  -0.8090169943749473,
+                  0.8090169943749473,
+                  -0.5877852522924732,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.544639035015027,
+                  -0.838670567945424,
+                  0.838670567945424,
+                  -0.544639035015027,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.5000000000000004,
+                  -0.8660254037844385,
+                  0.8660254037844385,
+                  -0.5000000000000004,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.4539904997395469,
+                  -0.8910065241883678,
+                  0.8910065241883678,
+                  -0.4539904997395469,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.4067366430758001,
+                  -0.913545457642601,
+                  0.913545457642601,
+                  -0.4067366430758001,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.3583679495453007,
+                  -0.9335804264972016,
+                  0.9335804264972016,
+                  -0.3583679495453007,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.30901699437494756,
+                  -0.9510565162951535,
+                  0.9510565162951535,
+                  -0.30901699437494756,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.25881904510252063,
+                  -0.9659258262890683,
+                  0.9659258262890683,
+                  -0.25881904510252063,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.2079116908177598,
+                  -0.9781476007338056,
+                  0.9781476007338056,
+                  -0.2079116908177598,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.15643446504023104,
+                  -0.9876883405951377,
+                  0.9876883405951377,
+                  -0.15643446504023104,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.10452846326765336,
+                  -0.9945218953682734,
+                  0.9945218953682734,
+                  -0.10452846326765336,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -0.052335956242944306,
+                  -0.9986295347545738,
+                  0.9986295347545738,
+                  -0.052335956242944306,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  -1.8369701987210297e-16,
+                  -1,
+                  1,
+                  -1.8369701987210297e-16,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.052335956242943946,
+                  -0.9986295347545738,
+                  0.9986295347545738,
+                  0.052335956242943946,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.10452846326765299,
+                  -0.9945218953682734,
+                  0.9945218953682734,
+                  0.10452846326765299,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.15643446504023067,
+                  -0.9876883405951378,
+                  0.9876883405951378,
+                  0.15643446504023067,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.20791169081775943,
+                  -0.9781476007338056,
+                  0.9781476007338056,
+                  0.20791169081775943,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.2588190451025203,
+                  -0.9659258262890684,
+                  0.9659258262890684,
+                  0.2588190451025203,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.30901699437494723,
+                  -0.9510565162951536,
+                  0.9510565162951536,
+                  0.30901699437494723,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.3583679495453004,
+                  -0.9335804264972017,
+                  0.9335804264972017,
+                  0.3583679495453004,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.40673664307579976,
+                  -0.9135454576426011,
+                  0.9135454576426011,
+                  0.40673664307579976,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.45399049973954664,
+                  -0.891006524188368,
+                  0.891006524188368,
+                  0.45399049973954664,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.5000000000000001,
+                  -0.8660254037844386,
+                  0.8660254037844386,
+                  0.5000000000000001,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.5446390350150266,
+                  -0.8386705679454243,
+                  0.8386705679454243,
+                  0.5446390350150266,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.5877852522924729,
+                  -0.8090169943749476,
+                  0.8090169943749476,
+                  0.5877852522924729,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.6293203910498375,
+                  -0.7771459614569708,
+                  0.7771459614569708,
+                  0.6293203910498375,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.6691306063588578,
+                  -0.7431448254773946,
+                  0.7431448254773946,
+                  0.6691306063588578,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.7071067811865474,
+                  -0.7071067811865477,
+                  0.7071067811865477,
+                  0.7071067811865474,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.7431448254773942,
+                  -0.6691306063588581,
+                  0.6691306063588581,
+                  0.7431448254773942,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.7771459614569706,
+                  -0.6293203910498378,
+                  0.6293203910498378,
+                  0.7771459614569706,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.8090169943749473,
+                  -0.5877852522924734,
+                  0.5877852522924734,
+                  0.8090169943749473,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.838670567945424,
+                  -0.544639035015027,
+                  0.544639035015027,
+                  0.838670567945424,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.8660254037844384,
+                  -0.5000000000000004,
+                  0.5000000000000004,
+                  0.8660254037844384,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.8910065241883678,
+                  -0.45399049973954697,
+                  0.45399049973954697,
+                  0.8910065241883678,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.913545457642601,
+                  -0.40673664307580015,
+                  0.40673664307580015,
+                  0.913545457642601,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9335804264972015,
+                  -0.35836794954530077,
+                  0.35836794954530077,
+                  0.9335804264972015,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9510565162951535,
+                  -0.3090169943749476,
+                  0.3090169943749476,
+                  0.9510565162951535,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9659258262890683,
+                  -0.2588190451025207,
+                  0.2588190451025207,
+                  0.9659258262890683,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9781476007338056,
+                  -0.20791169081775987,
+                  0.20791169081775987,
+                  0.9781476007338056,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9876883405951377,
+                  -0.15643446504023112,
+                  0.15643446504023112,
+                  0.9876883405951377,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9945218953682733,
+                  -0.10452846326765342,
+                  0.10452846326765342,
+                  0.9945218953682733,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9986295347545738,
+                  -0.05233595624294437,
+                  0.05233595624294437,
+                  0.9986295347545738,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  1,
+                  -2.4492935982947064e-16,
+                  2.4492935982947064e-16,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9986295347545738,
+                  0.05233595624294388,
+                  -0.05233595624294388,
+                  0.9986295347545738,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9945218953682734,
+                  0.10452846326765293,
+                  -0.10452846326765293,
+                  0.9945218953682734,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9876883405951378,
+                  0.15643446504023062,
+                  -0.15643446504023062,
+                  0.9876883405951378,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9781476007338056,
+                  0.20791169081775937,
+                  -0.20791169081775937,
+                  0.9781476007338056,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9659258262890684,
+                  0.25881904510252024,
+                  -0.25881904510252024,
+                  0.9659258262890684,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9510565162951536,
+                  0.3090169943749472,
+                  -0.3090169943749472,
+                  0.9510565162951536,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9335804264972017,
+                  0.3583679495453003,
+                  -0.3583679495453003,
+                  0.9335804264972017,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.9135454576426008,
+                  0.4067366430758005,
+                  -0.4067366430758005,
+                  0.9135454576426008,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.891006524188368,
+                  0.4539904997395466,
+                  -0.4539904997395466,
+                  0.891006524188368,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+        <RNSVGGroup />
+        <RNSVGGroup />
+        <RNSVGGroup>
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                123,
+                123,
+              ]
+            }
+          >
+            <RNSVGLine
+              fill={null}
+              matrix={
+                Array [
+                  0.8660254037844386,
+                  0.5,
+                  -0.5,
+                  0.8660254037844386,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={4293256677}
+              strokeLinecap={1}
+              strokeWidth={2}
+              x1={128}
+              x2={114}
+              y1={0}
+              y2={0}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGGroup>
+      <RNSVGPath
+        d="M36.39745962155614,173 A 100,100,0,1,1,209.60254037844385,173"
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+          ]
+        }
+        stroke={4293256677}
+        strokeLinecap={1}
+        strokeWidth={18}
+      />
+      <RNSVGPath
+        d="M36.39745962155614,173 A 100,100,0,0,1,36.39745962155614,173"
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+          ]
+        }
+        stroke={
+          Array [
+            1,
+            "gradient",
+          ]
+        }
+        strokeLinecap={1}
+        strokeWidth={18}
+      />
+      <RNSVGCircle
+        cx={36.39745962155614}
+        cy={173}
+        fill={4278225596}
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={18}
+        responsible={true}
+        stroke={4294967295}
+        strokeWidth={5}
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <View
+    pointerEvents="box-none"
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": -25,
+            "top": -10,
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {},
+            Object {
+              "color": "#333333",
+              "fontSize": 21,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginTop": 4.928571428571429,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 27,
+                "marginBottom": -8.214285714285714,
+                "marginTop": -8.214285714285714,
+              },
+              Object {},
+              Object {
+                "color": "#0B3471",
+                "fontSize": 40.5,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginTop": -32.857142857142854,
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {},
+            Object {
+              "color": "#333333",
+              "fontSize": 21,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {
+              "marginLeft": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 60,
+              },
+              Object {},
+              Object {
+                "color": "#0B3471",
+                "fontSize": 40.5,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          0
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 22.5,
+                "marginTop": -16.428571428571427,
+                "paddingLeft": 10,
+              },
+              Object {},
+              Object {
+                "color": "#333333",
+                "fontSize": 21,
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {},
+            Object {
+              "color": "#333333",
+              "fontSize": 21,
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 35,
+            "position": "absolute",
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 0.5,
+            }
+          }
+          testID="left-btn"
+        >
+          <RNSVGSvgView
+            bbHeight="30"
+            bbWidth="30"
+            focusable={false}
+            height="30"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 30,
+                  "width": 30,
+                },
+              ]
+            }
+            width="30"
+          >
+            <RNSVGGroup>
+              <RNSVGGroup>
+                <RNSVGCircle
+                  cx="20"
+                  cy="20"
+                  r="20"
+                />
+                <RNSVGPath
+                  d="M12.5168 23.7373L20.067 16.1616L27.6172 23.7373"
+                  propList={
+                    Array [
+                      "stroke",
+                      "strokeWidth",
+                      "strokeLinecap",
+                      "strokeLinejoin",
+                    ]
+                  }
+                  stroke={4278225596}
+                  strokeLinecap={1}
+                  strokeLinejoin={1}
+                  strokeWidth="2.4"
+                />
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="right-btn"
+        >
+          <RNSVGSvgView
+            bbHeight="30"
+            bbWidth="30"
+            focusable={false}
+            height="30"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 30,
+                  "width": 30,
+                },
+              ]
+            }
+            width="30"
+          >
+            <RNSVGGroup>
+              <RNSVGGroup>
+                <RNSVGCircle
+                  cx="20"
+                  cy="20"
+                  r="20"
+                />
+                <RNSVGPath
+                  d="M12.5168 17.2727L20.067 24.8485L27.6172 17.2727"
+                  propList={
+                    Array [
+                      "stroke",
+                      "strokeWidth",
+                      "strokeLinecap",
+                      "strokeLinejoin",
+                    ]
+                  }
+                  stroke={4278225596}
+                  strokeLinecap={1}
+                  strokeLinejoin={1}
+                  strokeWidth="2.4"
+                />
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

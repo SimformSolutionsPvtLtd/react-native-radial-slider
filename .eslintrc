@@ -16,7 +16,7 @@
     "no-console": ["error", { "allow": ["warn", "error"] }]
   },
   "globals": {
-      "JSX": "readonly"
+    "JSX": "readonly"
   },
   "plugins": ["prettier"]
 }

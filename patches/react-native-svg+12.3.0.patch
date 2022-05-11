@@ -1,0 +1,48 @@
+diff --git a/node_modules/react-native-svg/src/index.d.ts b/node_modules/react-native-svg/src/index.d.ts
+index 891a99d..edc6b6d 100644
+--- a/node_modules/react-native-svg/src/index.d.ts
++++ b/node_modules/react-native-svg/src/index.d.ts
+@@ -265,8 +265,8 @@ export type Ellipse = React.ComponentClass<EllipseProps>;
+ export interface GProps extends CommonPathProps, FontProps {
+   opacity?: NumberProp;
+ }
+-export const G: React.ComponentClass<GProps>;
+-export type G = React.ComponentClass<GProps>;
++export const G: React.ComponentClass<React.PropsWithChildren<GProps>>;
++export type G = React.ComponentClass<React.PropsWithChildren<GProps>>;
+ 
+ export interface ForeignObjectProps {
+   x?: NumberProp;
+@@ -315,8 +315,8 @@ export interface LinearGradientProps {
+   gradientTransform?: ColumnMajorTransformMatrix | string;
+   id?: string;
+ }
+-export const LinearGradient: React.ComponentClass<LinearGradientProps>;
+-export type LinearGradient = React.ComponentClass<LinearGradientProps>;
++export const LinearGradient: React.ComponentClass<React.PropsWithChildren<LinearGradientProps>>;
++export type LinearGradient = React.ComponentClass<React.PropsWithChildren<LinearGradientProps>>;
+ 
+ export interface PathProps extends CommonPathProps {
+   d?: string;
+@@ -420,8 +420,8 @@ export interface TSpanProps extends CommonPathProps, FontProps {
+   rotate?: NumberArray;
+   inlineSize?: NumberProp;
+ }
+-export const TSpan: React.ComponentClass<TSpanProps>;
+-export type TSpan = React.ComponentClass<TSpanProps>;
++export const TSpan: React.ComponentClass<React.PropsWithChildren<TSpanProps>>;
++export type TSpan = React.ComponentClass<React.PropsWithChildren<TSpanProps>>;
+ 
+ export interface TextSpecificProps extends CommonPathProps, FontProps {
+   alignmentBaseline?: AlignmentBaseline;
+@@ -442,8 +442,8 @@ export interface TextProps extends TextSpecificProps {
+   opacity?: NumberProp;
+   inlineSize?: NumberProp;
+ }
+-export const Text: React.ComponentClass<TextProps>;
+-export type Text = React.ComponentClass<TextProps>;
++export const Text: React.ComponentClass<React.PropsWithChildren<TextProps>>;
++export type Text = React.ComponentClass<React.PropsWithChildren<TextProps>>;
+ 
+ export interface TextPathProps extends TextSpecificProps {
+   xlinkHref?: string;

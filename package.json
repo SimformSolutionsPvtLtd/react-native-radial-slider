@@ -24,7 +24,8 @@
     "build": "rm -rf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -45,12 +46,14 @@
     "metro-react-native-babel-preset": "^0.67.0",
     "react": "^17.0.2",
     "react-native": "^0.67.1",
+    "react-native-svg": "^12.1.0",
     "react-test-renderer": "^17.0.2",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -82,5 +85,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "dependencies": {
+    "patch-package": "^6.4.7"
   }
 }
