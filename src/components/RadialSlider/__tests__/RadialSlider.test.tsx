@@ -1,13 +1,13 @@
 //@ts-nocheck
 import React from 'react';
 import { render } from '@testing-library/react-native';
-import { CounterButton } from '../CounterButton';
+import RadialSlider from '../RadialSlider';
 
 jest.useFakeTimers();
 
-describe('CounterButton component', () => {
+describe('RadialSlider component', () => {
   it('Match Snapshot', () => {
-    const { toJSON } = render(<CounterButton />);
+    const { toJSON } = render(<RadialSlider />);
     expect(toJSON()).toMatchSnapshot();
   });
 });
