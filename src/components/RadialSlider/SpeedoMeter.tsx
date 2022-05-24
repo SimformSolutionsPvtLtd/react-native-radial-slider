@@ -1,77 +1,55 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Svg, {
   Path,
   Defs,
   LinearGradient,
   Stop,
-  Circle,
   Color,
   NumberProp,
 } from 'react-native-svg';
 import { View, Platform } from 'react-native';
 import type { RadialSliderProps } from './types';
 import { styles } from './styles';
-import { Colors } from '../../theme';
 import { useSilderAnimation, useRadialSlider } from './hooks';
 import { defaultProps } from './SliderDefaultProps';
-import ButtonContent from './ButtonContent';
 import StautsContent from './StautsContent';
 import CenterContent from './CenterContent';
 import TailText from './TailText';
 import LineContent from './LineContent';
+import NiddleContent from './NiddleContent';
 
-const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
+const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
   const {
-    step,
     radius,
     sliderWidth,
     sliderTrackColor,
     openingRadian,
     linearGradient,
-    thumbRadius,
-    thumbBorderColor,
-    thumbColor,
-    thumbBorderWidth,
     style,
     markerLineSize,
-    disabled,
     contentStyle,
-    buttonContainerStyle,
-    min,
-    max,
     isHideSlider,
     isHideStatus,
     isHideCenterContent,
     isHideTailText,
-    isHideButtons,
     isHideLines,
   } = props;
 
-  const { panResponder, value, setValue, curPoint, currentRadian } =
+  const { value, setValue, curPoint, currentRadian } =
     useSilderAnimation(props);
 
-  const {
-    svgSize,
-    containerRef,
-    startPoint,
-    endPoint,
-    startRadian,
-    leftButtonStyle,
-    rightButtonStyle,
-  } = useRadialSlider(props);
+  useEffect(() => {
+    setValue(props.value);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.value]);
+
+  const { svgSize, containerRef, startPoint, endPoint, startRadian } =
+    useRadialSlider(props);
 
   const onLayout = () => {
     const ref = containerRef.current as any;
     if (ref) {
       ref.measure((_x: any, _y: any, _width: any, _height: any) => {});
-    }
-  };
-
-  const onPressButtons = (type: string) => {
-    if (type === 'up' && max > value) {
-      setValue((prevState: number) => prevState + step);
-    } else if (type === 'down' && min < value) {
-      setValue((prevState: number) => prevState - step);
     }
   };
 
@@ -125,48 +103,27 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
                 startRadian - currentRadian >= Math.PI ? '1' : '0'
               },1,${curPoint.x},${curPoint.y}`}
             />
-            <Circle
-              cx={curPoint.x}
-              cy={curPoint.y}
-              r={thumbRadius}
-              fill={thumbColor || thumbBorderColor}
-              stroke={thumbBorderColor}
-              strokeWidth={thumbBorderWidth}
-              {...panResponder.panHandlers}
-            />
           </>
         )}
+        <NiddleContent {...props} value={value} />
       </Svg>
       <View style={[styles.content, contentStyle]} pointerEvents="box-none">
         {/* Status Content */}
         {!isHideStatus && <StautsContent {...props} />}
         {/* Center Content */}
-        {!isHideCenterContent && <CenterContent {...props} value={value} />}
-        {/* Button Content */}
-        {!isHideButtons && (
-          <View style={[styles.buttonsWrapper, buttonContainerStyle]}>
-            <View style={styles.center}>
-              <ButtonContent
-                onPress={() => onPressButtons('down')}
-                buttonType="left-btn"
-                style={leftButtonStyle}
-                disabled={disabled || min === value}
-                stroke={Colors.blue}
-              />
-              <ButtonContent
-                disabled={disabled || max === value}
-                onPress={() => onPressButtons('up')}
-                style={rightButtonStyle}
-                buttonType="right-btn"
-                stroke={Colors.blue}
-              />
-            </View>
-          </View>
+        {!isHideCenterContent && (
+          <CenterContent
+            {...props}
+            value={value}
+            hideStyle={styles.centerText}
+            isHideSubtitle
+            centerContentStyle={styles.centerTextView}
+          />
         )}
       </View>
     </View>
   );
 };
 
-RadialSlider.defaultProps = defaultProps;
-export default RadialSlider;
+SpeedoMeter.defaultProps = defaultProps;
+export default SpeedoMeter;
