@@ -52,4 +52,12 @@ export const defaultProps = {
   isHideMarkerLine: false,
   isHideCenterContent: false,
   fixedMarker: false,
+  markerCircleSize: 15,
+  markerCircleColor: Colors.grey,
+  markerPositionY: 20,
+  markerPositionX: 20,
+  needleBackgroundColor: 'purple',
+  needleColor: 'url(#gradient)',
+  needleBorderWidth: '1.5',
+  needleHeight: 30,
 };

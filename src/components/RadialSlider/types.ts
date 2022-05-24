@@ -201,6 +201,42 @@ export interface RadialSliderProps {
    * If true, marked value will be hidden.
    */
   fixedMarker?: boolean;
+  /**
+   * Speedometer content styling.
+   */
+  hideStyle?: StyleProp<ViewStyle>;
+  /**
+   * Size for marker circle.
+   */
+  markerCircleSize?: number;
+  /**
+   * Color for marker circle.
+   */
+  markerCircleColor?: string;
+  /**
+   * Marker position for up and down.
+   */
+  markerPositionY?: number;
+  /**
+   * Marker position for right and left.
+   */
+  markerPositionX?: number;
+  /**
+   * BackgroundColor for needle.
+   */
+  needleBackgroundColor?: string;
+  /**
+   * Color for needle.
+   */
+  needleColor?: string;
+  /**
+   * Width of needle.
+   */
+  needleBorderWidth?: number;
+  /**
+   * Width of needle.
+   */
+  needleHeight?: number;
 }
 
 export interface ButtonProps {
@@ -217,9 +253,9 @@ export interface ButtonProps {
    */
   style: any;
   /**
-   * TestId for the iCon
+   * buttonType for the icon
    */
-  testID?: string;
+  buttonType?: string;
   /**
    * Color for icon
    */

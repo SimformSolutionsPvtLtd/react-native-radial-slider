@@ -36,7 +36,6 @@ export const styles = StyleSheet.create({
   valueUnit: {
     fontSize: moderateScale(15),
     paddingLeft: horizontalScale(5),
-    marginTop: verticalScale(-10),
   },
   statusValueUnit: {
     fontSize: moderateScale(12),
@@ -55,6 +54,7 @@ export const styles = StyleSheet.create({
   center: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginLeft: moderateScale(20),
   },
   helperText: {
     color: Colors.darkCharcoal,
@@ -78,5 +78,12 @@ export const styles = StyleSheet.create({
   subTitleWidth: {
     textAlign: 'center',
     width: horizontalScale(150),
+  },
+  centerText: {
+    flexDirection: 'column',
+  },
+  centerTextView: {
+    marginTop: verticalScale(110),
+    marginRight: horizontalScale(20),
   },
 });

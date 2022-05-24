@@ -96,7 +96,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           y={Array []}
         >
           <RNSVGTSpan
-            content="0"
+            content="0 "
             dx={Array []}
             dy={Array []}
             font={Object {}}
@@ -146,7 +146,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           y={Array []}
         >
           <RNSVGTSpan
-            content="100"
+            content="100 "
             dx={Array []}
             dy={Array []}
             font={Object {}}
@@ -3980,6 +3980,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
             },
+            undefined,
             Object {
               "marginLeft": 10,
             },
@@ -4008,7 +4009,6 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             Array [
               Object {
                 "fontSize": 22.5,
-                "marginTop": -16.428571428571427,
                 "paddingLeft": 10,
               },
               Object {},
@@ -4058,6 +4058,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "marginLeft": 30,
           }
         }
       >
@@ -4082,11 +4083,10 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               "opacity": 0.5,
             }
           }
-          testID="left-btn"
         >
           <RNSVGSvgView
             bbHeight="30"
-            bbWidth="30"
+            bbWidth="45"
             focusable={false}
             height="30"
             style={
@@ -4098,11 +4098,11 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                 Object {
                   "flex": 0,
                   "height": 30,
-                  "width": 30,
+                  "width": 45,
                 },
               ]
             }
-            width="30"
+            width="45"
           >
             <RNSVGGroup>
               <RNSVGGroup>
@@ -4151,11 +4151,10 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               "opacity": 1,
             }
           }
-          testID="right-btn"
         >
           <RNSVGSvgView
             bbHeight="30"
-            bbWidth="30"
+            bbWidth="45"
             focusable={false}
             height="30"
             style={
@@ -4167,11 +4166,11 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                 Object {
                   "flex": 0,
                   "height": 30,
-                  "width": 30,
+                  "width": 45,
                 },
               ]
             }
-            width="30"
+            width="45"
           >
             <RNSVGGroup>
               <RNSVGGroup>
