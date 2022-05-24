@@ -1,18 +1,18 @@
-import type { ViewStyle, TextStyle, StyleProp } from "react-native";
+import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
 
 export interface RadialSliderProps {
   /**
    * Radious of radial slider.
    */
-  radius: number;
+  radius?: number;
   /**
    * Min value of radial slider.
    */
-  min: number;
+  min?: number;
   /**
    * Max value to radial slider.
    */
-  max: number;
+  max?: number;
   /**
    * Radial slider step value.
    */
@@ -32,7 +32,7 @@ export interface RadialSliderProps {
   /**
    * Show selection upto this value.
    */
-  value: number;
+  value?: number;
   /**
    * Radial slider title.
    */
@@ -197,4 +197,31 @@ export interface RadialSliderProps {
    * If true, marked lines will be hidden.
    */
   isHideMarkerLine?: boolean;
+  /**
+   * If true, marked value will be hidden.
+   */
+  fixedMarker?: boolean;
+}
+
+export interface ButtonProps {
+  /**
+   * If true, buttons will be in disabled state.
+   */
+  disabled?: boolean;
+  /**
+   * Based on click value will be increased or decreased
+   */
+  onPress?: () => void;
+  /**
+   * Button container styling.
+   */
+  style: any;
+  /**
+   * TestId for the iCon
+   */
+  testID?: string;
+  /**
+   * Color for icon
+   */
+  stroke?: string;
 }

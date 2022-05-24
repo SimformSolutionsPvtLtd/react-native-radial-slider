@@ -4032,6 +4032,10 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               "fontSize": 21,
               "fontWeight": "400",
             },
+            Object {
+              "textAlign": "center",
+              "width": 300,
+            },
           ]
         }
       >
