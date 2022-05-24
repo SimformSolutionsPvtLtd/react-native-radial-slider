@@ -17,6 +17,7 @@ const CenterContent = (props: RadialSliderProps) => {
     isHideValue,
     value,
     centerContentStyle,
+    hideStyle,
   } = props;
 
   return (
@@ -28,6 +29,7 @@ const CenterContent = (props: RadialSliderProps) => {
         <View
           style={[
             styles.hideValue,
+            hideStyle,
             // eslint-disable-next-line react-native/no-inline-styles
             {
               marginLeft: unit?.length ? unit?.length * 5 : 10,

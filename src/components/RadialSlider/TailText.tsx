@@ -14,14 +14,14 @@ const TailText = (props: RadialSliderProps & typeof defaultProps) => {
       <G transform={`translate(${-20}, ${40})`}>
         <SVGText fill={Colors.darkCharcoal} fontSize={12}>
           <TSpan x={startPoint.x} y={startPoint.y}>
-            {`${min}${unit}`}
+            {`${min} ${unit}`}
           </TSpan>
         </SVGText>
       </G>
       <G transform={`translate(${-10}, ${40})`}>
         <SVGText fill={Colors.darkCharcoal} fontSize={12}>
           <TSpan x={endPoint.x} y={endPoint.y}>
-            {`${max}${unit}`}
+            {`${max} ${unit}`}
           </TSpan>
         </SVGText>
       </G>
