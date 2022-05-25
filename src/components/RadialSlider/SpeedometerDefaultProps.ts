@@ -1,6 +1,6 @@
 import { Colors } from '../../theme';
 
-export const defaultProps = {
+export const defaultSpeedoMeterProps = {
   radius: 100,
   min: 0,
   max: 100,
@@ -52,4 +52,16 @@ export const defaultProps = {
   isHideMarkerLine: false,
   isHideCenterContent: false,
   fixedMarker: false,
+  hideStyle: {},
+  markerCircleSize: 15,
+  markerCircleColor: Colors.grey,
+  markerPositionY: 20,
+  markerPositionX: 20,
+  needleBackgroundColor: 'purple',
+  needleColor: 'url(#gradient)',
+  needleBorderWidth: '1.5',
+  needleHeight: 30,
+  type: 'default',
+  markerValueInterval: 10,
+  markerValueColor: Colors.darkCharcoal,
 };

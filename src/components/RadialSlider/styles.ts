@@ -86,4 +86,7 @@ export const styles = StyleSheet.create({
     marginTop: verticalScale(110),
     marginRight: horizontalScale(20),
   },
+  speedValueUnit: {
+    paddingLeft: horizontalScale(0),
+  },
 });

@@ -1,24 +1,27 @@
 import React, { useState } from 'react';
 import { StyleSheet } from 'react-native';
-import { RadialSlider } from 'react-native-radial-slider';
+import { RadialSlider, SpeedoMeter } from 'react-native-radial-slider';
 import { colors } from './theme';
 
 const App = () => {
   const [speed, setSpeed] = useState(100);
 
   return (
-    <RadialSlider
+    <SpeedoMeter
       value={speed}
       markerValue={-1}
       min={0}
       style={styles.radial}
-      max={300}
+      max={200}
       subTitle={'Speedometer'}
+      needleBackgroundColor={'url(#gradient)'}
       unit={' MB/S'}
-      linearGradient={[{ stop: '100%', color: colors.darkBlue }]}
+      linearGradient={[
+        { stop: '0%', color: colors.skyBlue },
+        { stop: '100%', color: colors.darkBlue },
+      ]}
       onChange={setSpeed}
-      isHideSlider
-      isHideButtons
+      type="speedometer-marker"
     />
   );
 };

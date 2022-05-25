@@ -1,10 +1,12 @@
 import React from 'react';
 import { useRadialSlider } from './hooks';
-import type { RadialSliderProps } from './types';
+import type { SpeedometerProps } from './types';
 import { Circle, G, Polygon } from 'react-native-svg';
-import type { defaultProps } from './SliderDefaultProps';
+import type { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
 
-const NeedleContent = (props: RadialSliderProps & typeof defaultProps) => {
+const NeedleContent = (
+  props: SpeedometerProps & typeof defaultSpeedoMeterProps
+) => {
   const {
     radius,
     min,
@@ -27,10 +29,14 @@ const NeedleContent = (props: RadialSliderProps & typeof defaultProps) => {
         const activeIndex =
           ((((props.value - min) * 100) / (max - min)) * lineCount) / 100;
 
+        const needleRotation = activeIndex < 50 ? 125 : 122;
+
         return (
           <G
             key={_value}
-            transform={`rotate(${activeIndex - 120}, ${radius}, ${radius})`}
+            transform={`rotate(${
+              activeIndex - needleRotation
+            }, ${radius}, ${radius})`}
             x={markerPositionX}
             y={markerPositionY}>
             <Circle

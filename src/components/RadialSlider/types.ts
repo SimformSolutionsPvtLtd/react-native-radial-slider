@@ -1,5 +1,7 @@
 import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
 
+type stringType = string & {};
+
 export interface RadialSliderProps {
   /**
    * Radious of radial slider.
@@ -201,6 +203,32 @@ export interface RadialSliderProps {
    * If true, marked value will be hidden.
    */
   fixedMarker?: boolean;
+}
+
+export interface ButtonProps {
+  /**
+   * If true, buttons will be in disabled state.
+   */
+  disabled?: boolean;
+  /**
+   * Based on click value will be increased or decreased
+   */
+  onPress?: () => void;
+  /**
+   * Button container styling.
+   */
+  style: any;
+  /**
+   * buttonType for the icon
+   */
+  buttonType?: string;
+  /**
+   * Color for icon
+   */
+  stroke?: string;
+}
+
+export interface SpeedometerProps extends RadialSliderProps {
   /**
    * Speedometer content styling.
    */
@@ -237,27 +265,16 @@ export interface RadialSliderProps {
    * Width of needle.
    */
   needleHeight?: number;
-}
-
-export interface ButtonProps {
   /**
-   * If true, buttons will be in disabled state.
+   * Type for Speedometer, Types should be default or speedometer-marker.
    */
-  disabled?: boolean;
+  type?: 'defalut' | 'speedometer-marker' | stringType;
   /**
-   * Based on click value will be increased or decreased
+   * Show number of value in sequence.
    */
-  onPress?: () => void;
+  markerValueInterval?: number;
   /**
-   * Button container styling.
+   * Color for marker value.
    */
-  style: any;
-  /**
-   * buttonType for the icon
-   */
-  buttonType?: string;
-  /**
-   * Color for icon
-   */
-  stroke?: string;
+  markerValueColor?: string;
 }
