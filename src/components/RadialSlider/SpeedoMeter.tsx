@@ -8,17 +8,20 @@ import Svg, {
   NumberProp,
 } from 'react-native-svg';
 import { View, Platform } from 'react-native';
-import type { RadialSliderProps } from './types';
+import type { SpeedometerProps } from './types';
 import { styles } from './styles';
 import { useSilderAnimation, useRadialSlider } from './hooks';
-import { defaultProps } from './SliderDefaultProps';
 import StautsContent from './StautsContent';
 import CenterContent from './CenterContent';
 import TailText from './TailText';
 import LineContent from './LineContent';
 import NeedleContent from './NeedleContent';
+import { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
+import MarkerValueContent from './MarkerValueContent';
 
-const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
+const SpeedoMeter = (
+  props: SpeedometerProps & typeof defaultSpeedoMeterProps
+) => {
   const {
     radius,
     sliderWidth,
@@ -33,6 +36,7 @@ const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
     isHideCenterContent,
     isHideTailText,
     isHideLines,
+    type,
   } = props;
 
   const { value, setValue, curPoint, currentRadian } =
@@ -52,6 +56,8 @@ const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
       ref.measure((_x: any, _y: any, _width: any, _height: any) => {});
     }
   };
+
+  const isMarkerVariant = type === 'speedometer-marker';
 
   return (
     <View
@@ -83,7 +89,9 @@ const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
         </Defs>
         {!isHideTailText && <TailText {...props} />}
         {!isHideLines && <LineContent {...props} value={value} />}
-        {!isHideSlider && (
+        {isMarkerVariant && <MarkerValueContent {...props} value={value} />}
+
+        {!isMarkerVariant && !isHideSlider && (
           <>
             <Path
               strokeWidth={sliderWidth}
@@ -117,6 +125,7 @@ const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
             value={value}
             hideStyle={styles.centerText}
             isHideSubtitle
+            unitStyle={styles.speedValueUnit}
             centerContentStyle={styles.centerTextView}
           />
         )}
@@ -125,5 +134,5 @@ const SpeedoMeter = (props: RadialSliderProps & typeof defaultProps) => {
   );
 };
 
-SpeedoMeter.defaultProps = defaultProps;
+SpeedoMeter.defaultProps = defaultSpeedoMeterProps;
 export default SpeedoMeter;

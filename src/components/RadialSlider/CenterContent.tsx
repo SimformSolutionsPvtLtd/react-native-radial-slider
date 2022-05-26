@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native';
 import React from 'react';
 import { styles } from './styles';
-import type { RadialSliderProps } from './types';
+import type { SpeedometerProps } from './types';
 
-const CenterContent = (props: RadialSliderProps) => {
+const CenterContent = (props: SpeedometerProps) => {
   const {
     title,
     subTitle,
