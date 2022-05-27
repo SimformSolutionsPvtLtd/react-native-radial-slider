@@ -26,7 +26,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     radius,
     sliderWidth,
     sliderTrackColor,
-    openingRadian,
     linearGradient,
     thumbRadius,
     thumbBorderColor,
@@ -45,6 +44,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     isHideTailText,
     isHideButtons,
     isHideLines,
+    variant,
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian } =
@@ -58,6 +58,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     startRadian,
     leftButtonStyle,
     rightButtonStyle,
+    radianValue,
   } = useRadialSlider(props);
 
   const onLayout = () => {
@@ -74,6 +75,8 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
       setValue((prevState: number) => prevState - step);
     }
   };
+
+  const isCircleVariant = variant === 'radial-circle-slider';
 
   return (
     <View
@@ -103,7 +106,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
             )}
           </LinearGradient>
         </Defs>
-        {!isHideTailText && <TailText {...props} />}
+        {!isCircleVariant && !isHideTailText && <TailText {...props} />}
         {!isHideLines && <LineContent {...props} value={value} />}
         {!isHideSlider && (
           <>
@@ -113,7 +116,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
               fill="none"
               strokeLinecap="round"
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
-                startRadian - openingRadian >= Math.PI ? '1' : '0'
+                startRadian - radianValue >= Math.PI ? '1' : '0'
               },1,${endPoint.x},${endPoint.y}`}
             />
             <Path
@@ -143,7 +146,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
         {/* Center Content */}
         {!isHideCenterContent && <CenterContent {...props} value={value} />}
         {/* Button Content */}
-        {!isHideButtons && (
+        {!isCircleVariant && !isHideButtons && (
           <View style={[styles.buttonsWrapper, buttonContainerStyle]}>
             <View style={styles.center}>
               <ButtonContent

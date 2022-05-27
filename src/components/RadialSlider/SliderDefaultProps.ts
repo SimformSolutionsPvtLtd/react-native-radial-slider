@@ -8,8 +8,8 @@ export const defaultProps = {
   statusTitle: '',
   value: 0,
   title: '',
-  subTitle: '',
-  unit: '',
+  subTitle: 'Goal',
+  unit: 'kCal',
   thumbRadius: 18,
   thumbColor: Colors.blue,
   thumbBorderWidth: 5,
@@ -52,4 +52,5 @@ export const defaultProps = {
   isHideMarkerLine: false,
   isHideCenterContent: false,
   fixedMarker: false,
+  variant: 'default',
 };

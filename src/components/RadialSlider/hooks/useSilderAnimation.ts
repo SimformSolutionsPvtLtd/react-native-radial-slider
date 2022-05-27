@@ -10,33 +10,20 @@ import {
   getRadianByValue,
   polarToCartesian,
 } from '../../../utils/commonHelpers';
+import type { RadialSliderProps } from '../types';
+import type { defaultProps } from '../SliderDefaultProps';
+import useRadialSlider from './useRadialSlider';
 
 interface StartCartesianProps {
   x: number;
   y: number;
 }
 
-interface Props {
-  step: number;
-  radius: number;
-  sliderWidth: number;
-  openingRadian: number;
-  thumbRadius: number;
-  thumbBorderWidth: number;
-  disabled: boolean;
-  min: number;
-  onChange: Function;
-  max: number;
-  onComplete: Function;
-  value: number;
-}
-
-const useSilderAnimation = (props: Props) => {
+const useSilderAnimation = (props: RadialSliderProps & typeof defaultProps) => {
   const {
     step,
     radius,
     sliderWidth,
-    openingRadian,
     thumbRadius,
     thumbBorderWidth,
     disabled,
@@ -49,7 +36,7 @@ const useSilderAnimation = (props: Props) => {
   let moveStartValue: number;
   let startCartesian: StartCartesianProps;
   let moveStartRadian: number;
-
+  const { radianValue } = useRadialSlider(props);
   const prevValue = useRef(props.value > min ? props.value : min);
 
   const [value, setValue] = useState(
@@ -60,7 +47,7 @@ const useSilderAnimation = (props: Props) => {
     moveStartValue = prevValue.current;
     moveStartRadian = getRadianByValue(
       prevValue.current,
-      openingRadian,
+      radianValue,
       max,
       min
     );
@@ -95,7 +82,7 @@ const useSilderAnimation = (props: Props) => {
     );
 
     const ratio =
-      (moveStartRadian - radian) / ((Math.PI - (openingRadian as number)) * 2);
+      (moveStartRadian - radian) / ((Math.PI - (radianValue as number)) * 2);
 
     const diff = max - min;
 
@@ -138,7 +125,7 @@ const useSilderAnimation = (props: Props) => {
     })
   ).current;
 
-  const currentRadian = getCurrentRadian(value, openingRadian, max, min);
+  const currentRadian = getCurrentRadian(value, radianValue, max, min);
 
   const curPoint = polarToCartesian(
     currentRadian,

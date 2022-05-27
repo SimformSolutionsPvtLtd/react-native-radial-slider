@@ -203,6 +203,10 @@ export interface RadialSliderProps {
    * If true, marked value will be hidden.
    */
   fixedMarker?: boolean;
+  /**
+   * Variant for Radial Slider, Variant should be default or radial-circle-slider.
+   */
+  variant?: 'defalut' | 'radial-circle-slider' | stringType;
 }
 
 export interface ButtonProps {
@@ -266,9 +270,9 @@ export interface SpeedometerProps extends RadialSliderProps {
    */
   needleHeight?: number;
   /**
-   * Type for Speedometer, Types should be default or speedometer-marker.
+   * Variant for Speedometer, Variant should be default or speedometer-marker.
    */
-  type?: 'defalut' | 'speedometer-marker' | stringType;
+  variant?: 'defalut' | 'speedometer-marker' | stringType;
   /**
    * Show number of value in sequence.
    */
