@@ -96,7 +96,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           y={Array []}
         >
           <RNSVGTSpan
-            content="0 "
+            content="0 kCal"
             dx={Array []}
             dy={Array []}
             font={Object {}}
@@ -146,7 +146,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           y={Array []}
         >
           <RNSVGTSpan
-            content="100 "
+            content="100 kCal"
             dx={Array []}
             dy={Array []}
             font={Object {}}
@@ -3981,9 +3981,6 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               "flexDirection": "row",
             },
             undefined,
-            Object {
-              "marginLeft": 10,
-            },
           ]
         }
       >
@@ -4020,7 +4017,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             ]
           }
         >
-          
+          kCal
         </Text>
       </View>
       <Text
@@ -4039,7 +4036,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           ]
         }
       >
-        
+        Goal
       </Text>
     </View>
     <View
@@ -4058,7 +4055,6 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
-            "marginLeft": 30,
           }
         }
       >

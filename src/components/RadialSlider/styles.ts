@@ -54,7 +54,6 @@ export const styles = StyleSheet.create({
   center: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginLeft: moderateScale(20),
   },
   helperText: {
     color: Colors.darkCharcoal,

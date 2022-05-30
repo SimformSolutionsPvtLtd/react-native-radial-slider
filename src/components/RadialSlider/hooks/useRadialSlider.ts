@@ -1,29 +1,14 @@
 import React from 'react';
-import { StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import { StyleSheet } from 'react-native';
 import {
   createRange,
   getExtraSize,
   polarToCartesian,
 } from '../../../utils/commonHelpers';
+import type { RadialSliderProps } from '../types';
+import type { defaultProps } from '../SliderDefaultProps';
 
-interface Props {
-  step: number;
-  radius: number;
-  sliderWidth: number;
-  openingRadian: number;
-  thumbRadius: number;
-  thumbBorderWidth: number;
-  disabled: boolean;
-  min: number;
-  onChange: Function;
-  max: number;
-  onComplete: Function;
-  value: number;
-  letIconStyle?: StyleProp<ViewStyle>;
-  rightIconStyle?: StyleProp<ViewStyle>;
-}
-
-const useRadialSlider = (props: Props) => {
+const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
   const {
     radius,
     sliderWidth,
@@ -36,9 +21,12 @@ const useRadialSlider = (props: Props) => {
     value,
     rightIconStyle,
     max,
+    variant,
   } = props;
 
-  const angle = (openingRadian * 180.0) / Math.PI;
+  const radianValue = variant === 'radial-circle-slider' ? 0.01 : openingRadian;
+
+  const angle = (radianValue * 180.0) / Math.PI;
 
   const lineCount = (360 - angle * 2) as number;
 
@@ -53,7 +41,7 @@ const useRadialSlider = (props: Props) => {
     getExtraSize(sliderWidth, thumbRadius, thumbBorderWidth) / 2 +
     thumbBorderWidth;
 
-  const startRadian = 2 * Math.PI - openingRadian;
+  const startRadian = 2 * Math.PI - radianValue;
 
   const startPoint = polarToCartesian(
     startRadian,
@@ -64,7 +52,7 @@ const useRadialSlider = (props: Props) => {
   );
 
   const endPoint = polarToCartesian(
-    openingRadian,
+    radianValue,
     radius,
     sliderWidth,
     thumbRadius,
@@ -97,6 +85,7 @@ const useRadialSlider = (props: Props) => {
     startRadian,
     leftButtonStyle,
     rightButtonStyle,
+    radianValue,
   };
 };
 

@@ -36,7 +36,8 @@ const SpeedoMeter = (
     isHideCenterContent,
     isHideTailText,
     isHideLines,
-    type,
+    variant,
+    unit,
   } = props;
 
   const { value, setValue, curPoint, currentRadian } =
@@ -57,7 +58,7 @@ const SpeedoMeter = (
     }
   };
 
-  const isMarkerVariant = type === 'speedometer-marker';
+  const isMarkerVariant = variant === 'speedometer-marker';
 
   return (
     <View
@@ -123,7 +124,11 @@ const SpeedoMeter = (
           <CenterContent
             {...props}
             value={value}
-            hideStyle={styles.centerText}
+            hideStyle={[
+              styles.centerText,
+              // eslint-disable-next-line react-native/no-inline-styles
+              { marginLeft: unit?.length ? unit?.length * 5 : 10 },
+            ]}
             isHideSubtitle
             unitStyle={styles.speedValueUnit}
             centerContentStyle={styles.centerTextView}

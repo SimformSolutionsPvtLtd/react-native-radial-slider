@@ -26,15 +26,7 @@ const CenterContent = (props: SpeedometerProps) => {
         <Text style={[titleStyle, styles.helperText]}>{title}</Text>
       )}
       {!isHideValue && (
-        <View
-          style={[
-            styles.hideValue,
-            hideStyle,
-            // eslint-disable-next-line react-native/no-inline-styles
-            {
-              marginLeft: unit?.length ? unit?.length * 5 : 10,
-            },
-          ]}>
+        <View style={[styles.hideValue, hideStyle]}>
           <Text style={[styles.valueText, valueStyle, styles.large_header]}>
             {value}
           </Text>
