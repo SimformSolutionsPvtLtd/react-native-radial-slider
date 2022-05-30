@@ -1,4 +1,5 @@
 import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
+import type { Linecap } from 'react-native-svg';
 
 type stringType = string & {};
 
@@ -281,4 +282,8 @@ export interface SpeedometerProps extends RadialSliderProps {
    * Color for marker value.
    */
   markerValueColor?: string;
+  /**
+   * StrokeLineCap for path.
+   */
+  strokeLinecap?: Linecap;
 }

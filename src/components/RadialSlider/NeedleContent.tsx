@@ -29,7 +29,7 @@ const NeedleContent = (
         const activeIndex =
           ((((props.value - min) * 100) / (max - min)) * lineCount) / 100;
 
-        const needleRotation = activeIndex < 50 ? 125 : 122;
+        const needleRotation = activeIndex < 50 ? 122 : 119;
 
         return (
           <G
