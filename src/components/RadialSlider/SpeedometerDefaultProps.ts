@@ -64,4 +64,5 @@ export const defaultSpeedoMeterProps = {
   variant: 'default',
   markerValueInterval: 10,
   markerValueColor: Colors.darkCharcoal,
+  strokeLinecap: 'butt',
 };

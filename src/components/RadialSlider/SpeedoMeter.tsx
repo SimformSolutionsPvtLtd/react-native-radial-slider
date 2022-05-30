@@ -38,6 +38,7 @@ const SpeedoMeter = (
     isHideLines,
     variant,
     unit,
+    strokeLinecap,
   } = props;
 
   const { value, setValue, curPoint, currentRadian } =
@@ -98,7 +99,7 @@ const SpeedoMeter = (
               strokeWidth={sliderWidth}
               stroke={sliderTrackColor}
               fill="none"
-              strokeLinecap="round"
+              strokeLinecap={strokeLinecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - openingRadian >= Math.PI ? '1' : '0'
               },1,${endPoint.x},${endPoint.y}`}
@@ -107,7 +108,7 @@ const SpeedoMeter = (
               strokeWidth={sliderWidth}
               stroke="url(#gradient)"
               fill="none"
-              strokeLinecap="round"
+              strokeLinecap={strokeLinecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - currentRadian >= Math.PI ? '1' : '0'
               },1,${curPoint.x},${curPoint.y}`}

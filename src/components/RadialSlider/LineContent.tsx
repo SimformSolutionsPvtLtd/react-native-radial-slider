@@ -27,8 +27,10 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
   return (
     <G>
       {lines.map((_value, index) => {
+        const plusActiveIndex = index === 0 ? 0 : 1;
         const activeIndex =
-          ((((value - min) * 100) / (max - min)) * lineCount) / 100;
+          ((((value - min) * 100) / (max - min)) * lineCount) / 100 +
+          plusActiveIndex;
         const markIndex = Math.floor(
           (((((!dynamicMarker
             ? fixedMarker
