@@ -39,13 +39,15 @@ const SpeedoMeter = (
     variant,
     unit,
     strokeLinecap,
+    max,
   } = props;
 
   const { value, setValue, curPoint, currentRadian } =
     useSilderAnimation(props);
 
   useEffect(() => {
-    setValue(props.value);
+    const updateValue = props.value > max ? max : props.value;
+    setValue(updateValue);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.value]);
 
