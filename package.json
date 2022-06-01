@@ -25,7 +25,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install",
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "example": "yarn --cwd example"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
