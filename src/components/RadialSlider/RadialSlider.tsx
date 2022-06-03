@@ -44,7 +44,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     isHideTailText,
     isHideButtons,
     isHideLines,
-    variant,
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian } =
@@ -59,6 +58,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     leftButtonStyle,
     rightButtonStyle,
     radianValue,
+    isRadialCircleVariant,
   } = useRadialSlider(props);
 
   const onLayout = () => {
@@ -75,8 +75,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
       setValue((prevState: number) => prevState - step);
     }
   };
-
-  const isCircleVariant = variant === 'radial-circle-slider';
 
   return (
     <View
@@ -106,7 +104,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
             )}
           </LinearGradient>
         </Defs>
-        {!isCircleVariant && !isHideTailText && <TailText {...props} />}
+        {!isRadialCircleVariant && !isHideTailText && <TailText {...props} />}
         {!isHideLines && <LineContent {...props} value={value} />}
         {!isHideSlider && (
           <>
@@ -146,7 +144,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
         {/* Center Content */}
         {!isHideCenterContent && <CenterContent {...props} value={value} />}
         {/* Button Content */}
-        {!isCircleVariant && !isHideButtons && (
+        {!isRadialCircleVariant && !isHideButtons && (
           <View style={[styles.buttonsWrapper, buttonContainerStyle]}>
             <View style={styles.center}>
               <ButtonContent

@@ -1,11 +1,12 @@
 import { Platform } from 'react-native';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import type { RadialSliderProps } from './types';
 import { G, Line } from 'react-native-svg';
 import type { defaultProps } from './SliderDefaultProps';
 import { useRadialSlider } from './hooks';
 
 const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
+  const [markerPositionValues, setMarkerPositionValues] = useState([]);
   const {
     radius,
     linearGradient,
@@ -20,9 +21,28 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
     isHideMarkerLine,
     fixedMarker,
     value,
+    markerValueInterval,
   } = props;
 
-  const { angle, lineCount, lines, lineHeight } = useRadialSlider(props);
+  const {
+    angle,
+    lineCount,
+    lines,
+    lineHeight,
+    isMarkerVariant,
+    marks,
+    isRadialCircleVariant,
+  } = useRadialSlider(props);
+
+  const markerInnerValue = Math.round((max / markerValueInterval) as number);
+
+  useEffect(() => {
+    const arr: any = [];
+    for (let i = 0; i < marks.length; i = i + markerInnerValue) {
+      arr.push(marks[i].value);
+    }
+    setMarkerPositionValues(arr);
+  }, [markerInnerValue, marks, max]);
 
   return (
     <G>
@@ -31,6 +51,15 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
         const activeIndex =
           ((((value - min) * 100) / (max - min)) * lineCount) / 100 +
           plusActiveIndex;
+
+        const getMarketIndex = () => {
+          return markerPositionValues.map((val: number) => {
+            return Math.floor(
+              ((((val - min) * 100) / (max - min)) * lineCount) / 100
+            );
+          });
+        };
+
         const markIndex = Math.floor(
           (((((!dynamicMarker
             ? fixedMarker
@@ -44,9 +73,19 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
             100
         );
 
+        const isMarkerLine = getMarketIndex()?.includes(index);
+
+        const isSpeedoMarker = !isMarkerVariant ? 0 : isMarkerLine ? -10 : 0;
+
+        const isSpeedoMeterMarkerLine = isRadialCircleVariant
+          ? false
+          : isMarkerLine;
+
         return (
           <G key={index.toString()}>
-            {(index % lineSpace === 0 || index === markIndex) && (
+            {(index % lineSpace === 0 ||
+              index === markIndex ||
+              isSpeedoMeterMarkerLine) && (
               <G
                 transform={`translate(${
                   radius + (lineHeight - thumbBorderWidth)
@@ -57,7 +96,7 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
                       ? radius + markerLineSize
                       : radius + lineHeight
                   }
-                  x2={radius + lineHeight / 2}
+                  x2={radius + lineHeight / 2 + isSpeedoMarker}
                   transform={`rotate(${index + 90 + angle})`}
                   strokeWidth={2}
                   stroke={
