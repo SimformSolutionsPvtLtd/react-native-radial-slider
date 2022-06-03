@@ -1,20 +1,24 @@
 # react-native-radial-slider
 
-- [Installation](#installation)
-- [RadialSlider](#radialSlider)
-- [Speedometer](#speedometer)
-- [Properties](#properties)
+---
+
+This is pure javascript and react-native-svg based library. In this library we provide you two different variants and in this two variants we add two another variants.
+
+First one is RadialSlider. Basically RadialSlider is use for set goal, vision, criteria, range ,like that. so in this variant we provide you one default and another is redial-circle-slider. In default one we have button or circle to increase or decrease number. And in radial-circle-silder we provide you fully circle variant and value will be update based on circle.
+
+Second one is SpeedoMeter. A speedometer is a gauge that measures and displays the instantaneous speed of a internet, Vehicle, fan like that. Main purpose of this variant is to check actual speed for things. So in this variant we provide you one default and another is speedometer-marker. default variant is without marker value and speedometer-marker is with marker value.
+
+This library provide you fully customization and easy to use. so you can customize component based on your need.
 
 ![alt tag](./assets/RadialSliderExample.gif) &nbsp;&nbsp;&nbsp;&nbsp;![alt tag](./assets/SpeedoMeterEcampl.gif)
-[Example](./example/src//modules/RadialVariant/index.tsx)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](./example/src//modules/SpeedoMeterVariant/index.tsx)
 
-### Example
+---
 
-```sh
-$ yarn
-$ yarn example ios   // For ios
-$ yarn example android   // For Android
-```
+- [Installation](#installation)
+- [RadialSlider](#radialslider)
+- [Speedometer](#speedometer)
+- [Properties](#properties)
+- [Example](#example)
 
 ## Installation
 
@@ -280,6 +284,12 @@ export default SpeedoMeterVariant;
 ### Example
 
 A full working example project is here [Example](./example/src/App.tsx)
+
+```sh
+$ yarn
+$ yarn example ios   // For ios
+$ yarn example android   // For Android
+```
 
 ### License
 
