@@ -2,13 +2,17 @@
 
 ---
 
-This is pure javascript and react-native-svg based library. In this library we provide you two different variants and in this two variants we add two another variants.
+This is pure javascript and react-native-svg based library. That provides a radial slider to select any specific value from a range of values and also provides a speedo meter to highlight a specific value from a range of values.
 
-First one is RadialSlider. Basically RadialSlider is use for set goal, vision, criteria, range ,like that. so in this variant we provide you one default and another is redial-circle-slider. In default one we have button or circle to increase or decrease number. And in radial-circle-silder we provide you fully circle variant and value will be update based on circle.
+Radial slider has two variants, one is default and that allows selection on a 180-degree arc and second one is 360-degree which allows selection of values on a complete circle. It can be used to select / set goal, vision, criteria, range etc.
 
-Second one is SpeedoMeter. A speedometer is a gauge that measures and displays the instantaneous speed of a internet, Vehicle, fan like that. Main purpose of this variant is to check actual speed for things. So in this variant we provide you one default and another is speedometer-marker. default variant is without marker value and speedometer-marker is with marker value.
+The speedometer also has two variants, default one shows a needle and another one shows marking values with a needle. It can be used to display the speed of an internet, vehicle, fan etc.
 
 This library provide you fully customization and easy to use. so you can customize component based on your need.
+
+#### Preview
+
+---
 
 ![alt tag](./assets/RadialSliderExample.gif) &nbsp;&nbsp;&nbsp;&nbsp;![alt tag](./assets/SpeedoMeterEcampl.gif)
 
@@ -239,16 +243,16 @@ export default SpeedoMeterVariant;
 | statusContainerStyle  | {}                                                                     | object   | Status container style                                                                                                       | ✅           | ✅          |
 | statusTitleStyle      | {}                                                                     | object   | Status title text style                                                                                                      | ✅           | ✅          |
 | statusValueStyle      | {}                                                                     | object   | Status value text style                                                                                                      | ✅           | ✅          |
-| centerContentStyle    | {}                                                                     | object   | Center content styling                                                                                                       | ✅           | ✅          |
-| titleStyle            | {}                                                                     | object   | Status title container styling                                                                                               | ✅           | ✅          |
-| subTitleStyle         | {}                                                                     | object   | Status subtitle text styling                                                                                                 | ✅           | ✅          |
+| centerContentStyle    | {}                                                                     | object   | Center content style                                                                                                         | ✅           | ✅          |
+| titleStyle            | {}                                                                     | object   | Status title container style                                                                                                 | ✅           | ✅          |
+| subTitleStyle         | {}                                                                     | object   | Status subtitle text style                                                                                                   | ✅           | ✅          |
 | valueStyle            | {}                                                                     | object   | Center value style                                                                                                           | ✅           | ✅          |
-| buttonContainerStyle  | {}                                                                     | object   | Button container styling                                                                                                     | ✅           | ✅          |
-| letIconStyle          | {}                                                                     | object   | Left Icon styling                                                                                                            | ✅           | ✅          |
-| rightIconStyle        | {}                                                                     | object   | Right Icon styling                                                                                                           | ✅           | ✅          |
-| contentStyle          | {}                                                                     | object   | Whole content styling                                                                                                        | ✅           | ✅          |
-| unitStyle             | {}                                                                     | object   | Unit text styling                                                                                                            | ✅           | ✅          |
-| style                 | {}                                                                     | object   | Inner container styling                                                                                                      | ✅           | ✅          |
+| buttonContainerStyle  | {}                                                                     | object   | Button container style                                                                                                       | ✅           | ✅          |
+| letIconStyle          | {}                                                                     | object   | Left Icon style                                                                                                              | ✅           | ✅          |
+| rightIconStyle        | {}                                                                     | object   | Right Icon style                                                                                                             | ✅           | ✅          |
+| contentStyle          | {}                                                                     | object   | Whole content style                                                                                                          | ✅           | ✅          |
+| unitStyle             | {}                                                                     | object   | Unit text style                                                                                                              | ✅           | ✅          |
+| style                 | {}                                                                     | object   | Inner container style                                                                                                        | ✅           | ✅          |
 | openingRadian         | RadialSlider: Math.PI / 3 , SpeedoMeter:0.01                           | number   | Radian of component                                                                                                          | ✅           | ✅          |
 | disabled              | false                                                                  | boolean  | If true, buttons will be in disabled state                                                                                   | ✅           | ❌          |
 | dynamicMarker         | false                                                                  | boolean  | If false, marker will be static                                                                                              | ✅           | ✅          |
@@ -266,7 +270,7 @@ export default SpeedoMeterVariant;
 | variant               | default                                                                | string   | Different Variansts for components. RadialSlider: default & radial-circle-slider , SpeedoMeter: default & speedometer-marker | ✅           | ✅          |
 | onPress               | {}                                                                     | function | Based on click value will be increased or decreased                                                                          | ✅           | ❌          |
 | stroke                | '#008ABC'                                                              | string   | Color for button icon                                                                                                        | ✅           | ❌          |
-| hideStyle             | {}                                                                     | object   | Speedometer content styling                                                                                                  | ❌           | ✅          |
+| hideStyle             | {}                                                                     | object   | Speedometer content style                                                                                                    | ❌           | ✅          |
 | markerCircleSize      | 15                                                                     | number   | Size for marker circle                                                                                                       | ❌           | ✅          |
 | markerCircleColor     | #E5E5E5                                                                | string   | Color for marker circle                                                                                                      | ❌           | ✅          |
 | markerPositionY       | 20                                                                     | number   | Marker position for up and down                                                                                              | ❌           | ✅          |
