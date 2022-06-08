@@ -5,7 +5,7 @@
   "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider/blob/main/README.md",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Mukesh Jangid <mukesh.j@simformsolutions.com>",
+  "author": "Simform Solutions",
   "license": "MIT",
   "files": [
     "lib"
@@ -18,7 +18,9 @@
     "radial",
     "radial-slider",
     "circular-slider",
-    "rn"
+    "rn",
+    "speedometer",
+    "meter"
   ],
   "scripts": {
     "build": "rm -rf lib && tsc -p .",
