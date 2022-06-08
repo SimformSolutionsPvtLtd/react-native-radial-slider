@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
-import type { SpeedometerProps } from './types';
+import type { SpeedoMeterProps } from './types';
 import type { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
 import { G, Text as SVGText } from 'react-native-svg';
 import { useRadialSlider } from './hooks';
 
 const MarkerValueContent = (
-  props: SpeedometerProps & typeof defaultSpeedoMeterProps
+  props: SpeedoMeterProps & typeof defaultSpeedoMeterProps
 ) => {
   const {
     step,

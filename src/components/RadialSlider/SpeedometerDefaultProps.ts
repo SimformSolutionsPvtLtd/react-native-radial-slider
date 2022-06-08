@@ -8,7 +8,7 @@ export const defaultSpeedoMeterProps = {
   statusTitle: '',
   value: 0,
   title: '',
-  subTitle: 'Speedometer',
+  subTitle: 'SpeedoMeter',
   unit: 'MB/S',
   thumbRadius: 18,
   thumbColor: Colors.blue,
