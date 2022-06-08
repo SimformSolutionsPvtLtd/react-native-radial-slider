@@ -8,7 +8,7 @@ import Svg, {
   NumberProp,
 } from 'react-native-svg';
 import { View, Platform } from 'react-native';
-import type { SpeedometerProps } from './types';
+import type { SpeedoMeterProps } from './types';
 import { styles } from './styles';
 import { useSilderAnimation, useRadialSlider } from './hooks';
 import StautsContent from './StautsContent';
@@ -20,7 +20,7 @@ import { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
 import MarkerValueContent from './MarkerValueContent';
 
 const SpeedoMeter = (
-  props: SpeedometerProps & typeof defaultSpeedoMeterProps
+  props: SpeedoMeterProps & typeof defaultSpeedoMeterProps
 ) => {
   const {
     radius,

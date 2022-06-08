@@ -1,11 +1,11 @@
 import React from 'react';
 import { useRadialSlider } from './hooks';
-import type { SpeedometerProps } from './types';
+import type { SpeedoMeterProps } from './types';
 import { Circle, G, Polygon } from 'react-native-svg';
 import type { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
 
 const NeedleContent = (
-  props: SpeedometerProps & typeof defaultSpeedoMeterProps
+  props: SpeedoMeterProps & typeof defaultSpeedoMeterProps
 ) => {
   const {
     radius,

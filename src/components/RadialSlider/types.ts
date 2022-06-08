@@ -233,9 +233,9 @@ export interface ButtonProps {
   stroke?: string;
 }
 
-export interface SpeedometerProps extends RadialSliderProps {
+export interface SpeedoMeterProps extends RadialSliderProps {
   /**
-   * Speedometer content styling.
+   * SpeedoMeter content styling.
    */
   hideStyle?: StyleProp<ViewStyle>;
   /**
@@ -271,7 +271,7 @@ export interface SpeedometerProps extends RadialSliderProps {
    */
   needleHeight?: number;
   /**
-   * Variant for Speedometer, Variant should be default or speedometer-marker.
+   * Variant for SpeedoMeter, Variant should be default or speedometer-marker.
    */
   variant?: 'defalut' | 'speedometer-marker' | stringType;
   /**

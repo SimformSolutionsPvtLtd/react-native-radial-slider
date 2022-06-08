@@ -20,7 +20,7 @@ This library provide you fully customization and easy to use. so you can customi
 
 - [Installation](#installation)
 - [RadialSlider](#radialslider)
-- [Speedometer](#speedometer)
+- [SpeedoMeter](#speedometer)
 - [Properties](#properties)
 - [Example](#example)
 
@@ -47,7 +47,7 @@ $ yarn add react-native-svg
 # RadialSlider
 
 - RadialSlider is use to set Goal ,Weight ,Distance.
-- RadialSlider we provided two different variants like default and radial-circle-slider
+- RadialSlider has two different variations like default and radial-circle-slider
 
 ## Default RadialSlider
 
@@ -128,18 +128,18 @@ const styles = StyleSheet.create({
 export default RadialVariant;
 ```
 
-# Speedometer
+# SpeedoMeter
 
-- A speedometer is a gauge that measures and displays the instantaneous speed of a internet ,Vehicle
-- Speedometer we provided two different variants like default and speedometer-marker
+- SpeedoMeter provides you UI for checking internet, vehical speed, frequency.
+- SpeedoMeter has two different variations like default and speedometer-marker
 
-## Default Speedometer
+## Default SpeedoMeter
 
 #### Preview
 
 ---
 
-![Default Speedometer](./assets/SpeedoMeter.gif)
+![Default SpeedoMeter](./assets/SpeedoMeter.gif)
 
 #### Usage
 
@@ -148,14 +148,14 @@ export default RadialVariant;
 ```jsx
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Speedometer } from 'react-native-radial-slider';
+import { SpeedoMeter } from 'react-native-radial-slider';
 
 const SpeedoMeterVariant = () => {
   const [speed, setSpeed] = useState(0);
 
   return (
     <View style={styles.container}>
-      <Speedometer value={speed} min={0} max={200} onChange={setSpeed} />
+      <SpeedoMeter value={speed} min={0} max={200} onChange={setSpeed} />
     </View>
   );
 };
@@ -170,11 +170,11 @@ const styles = StyleSheet.create({
 export default SpeedoMeterVariant;
 ```
 
-## Speedometer Marker
+## SpeedoMeter Marker
 
 #### Preview
 
-![Default SpeedometerMarker](./assets/SpeedeMeterMarker.gif)
+![Default SpeedoMeterMarker](./assets/SpeedeMeterMarker.gif)
 
 #### Usage
 
@@ -183,14 +183,14 @@ export default SpeedoMeterVariant;
 ```jsx
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Speedometer } from 'react-native-radial-slider';
+import { SpeedoMeter } from 'react-native-radial-slider';
 
 const SpeedoMeterVariant = () => {
   const [speed, setSpeed] = useState(0);
 
   return (
     <View style={styles.container}>
-      <Speedometer
+      <SpeedoMeter
         value={speed}
         min={0}
         max={200}
@@ -217,7 +217,7 @@ export default SpeedoMeterVariant;
 
 | Prop                  | Default                                                                | Type     | Description                                                                                                                  | RadialSlider | SpeedoMeter |
 | :-------------------- | :--------------------------------------------------------------------- | :------- | :--------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
-| radius                | 100                                                                    | number   | Radious for component                                                                                                        | ✅           | ✅          |
+| radius                | 100                                                                    | number   | Size of component                                                                                                            | ✅           | ✅          |
 | min                   | 0                                                                      | number   | Minimum value                                                                                                                | ✅           | ✅          |
 | max                   | 100                                                                    | number   | Max value                                                                                                                    | ✅           | ✅          |
 | step                  | 1                                                                      | number   | step value for component                                                                                                     | ✅           | ✅          |
@@ -270,7 +270,7 @@ export default SpeedoMeterVariant;
 | variant               | default                                                                | string   | Different Variansts for components. RadialSlider: default & radial-circle-slider , SpeedoMeter: default & speedometer-marker | ✅           | ✅          |
 | onPress               | {}                                                                     | function | Based on click value will be increased or decreased                                                                          | ✅           | ❌          |
 | stroke                | '#008ABC'                                                              | string   | Color for button icon                                                                                                        | ✅           | ❌          |
-| hideStyle             | {}                                                                     | object   | Speedometer content style                                                                                                    | ❌           | ✅          |
+| hideStyle             | {}                                                                     | object   | Content style                                                                                                                | ❌           | ✅          |
 | markerCircleSize      | 15                                                                     | number   | Size for marker circle                                                                                                       | ❌           | ✅          |
 | markerCircleColor     | #E5E5E5                                                                | string   | Color for marker circle                                                                                                      | ❌           | ✅          |
 | markerPositionY       | 20                                                                     | number   | Marker position for up and down                                                                                              | ❌           | ✅          |
