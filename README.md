@@ -1,6 +1,8 @@
 # react-native-radial-slider
+[![npm version](https://img.shields.io/badge/npm%20package-1.0.0-orange)](https://www.npmjs.org/package/react-native-radial-slider)  [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com)  [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios)  [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
+<br>
 
 This is pure javascript and react-native-svg based library. That provides a radial slider to select any specific value from a range of values and also provides a speedo meter to highlight a specific value from a range of values.
 
@@ -8,21 +10,25 @@ Radial slider has two variants, one is default and that allows selection on a 18
 
 The speedometer also has two variants, default one shows a needle and another one shows marking values with a needle. It can be used to display the speed of an internet, vehicle, fan etc.
 
-This library provide you fully customization and easy to use. so you can customize component based on your need.
+This library is easy to use and provides you full customization, so you can customize component based on your need.
 
-#### Preview
+## 🎬 Preview
+---
+
+| RadialSlider | SpeedoMeter |
+|--|--|
+| ![alt RadialSlider](./assets/RadialSliderExample.gif) | ![alt SpeedoMeter](./assets/SpeedoMeterEcampl.gif) |
 
 ---
 
-![alt tag](./assets/RadialSliderExample.gif) &nbsp;&nbsp;&nbsp;&nbsp;![alt tag](./assets/SpeedoMeterEcampl.gif)
-
----
-
-- [Installation](#installation)
-- [RadialSlider](#radialslider)
-- [SpeedoMeter](#speedometer)
-- [Properties](#properties)
-- [Example](#example)
+| Quick Access |
+|--|
+| [Installation](#installation) |
+| [RadialSlider](#radialslider) |
+| [SpeedoMeter](#speedometer) |
+| [Properties](#properties) |
+| [Example](#example) |
+| [License](#license) |
 
 ## Installation
 
@@ -32,7 +38,7 @@ $ npm install react-native-radial-slider
 $ yarn add react-native-radial-slider
 ```
 
-## Install additional depedancy
+## Install additional dependency
 
 ```bash
 $ npm install react-native-svg
@@ -40,18 +46,17 @@ $ npm install react-native-svg
 $ yarn add react-native-svg
 ```
 
-### More information about react-native-svg
+##### Know more about [react-native-svg](https://www.npmjs.com/package/react-native-svg)
 
-- https://www.npmjs.com/package/react-native-svg
 
 # RadialSlider
 
-- RadialSlider is use to set Goal ,Weight ,Distance.
-- RadialSlider has two different variations like default and radial-circle-slider
+- RadialSlider has two different variants, default one and radial-circle-slider
+- RadialSlider can be used to select / set goal, vision, criteria, range etc
 
 ## Default RadialSlider
 
-#### Preview
+#### 🎬 Preview
 
 ---
 
@@ -88,7 +93,7 @@ export default RadialVariant;
 
 ## Radial Circle Silder
 
-#### Preview
+#### 🎬 Preview
 
 ---
 
@@ -118,6 +123,7 @@ const RadialVariant = () => {
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -130,12 +136,12 @@ export default RadialVariant;
 
 # SpeedoMeter
 
-- SpeedoMeter provides you UI for checking internet, vehical speed, frequency.
-- SpeedoMeter has two different variations like default and speedometer-marker
+- SpeedoMeter has two different variants, default one and speedometer-marker
+- SpeedoMeter can be used to display the speed of an internet, vehicle, fan etc
 
 ## Default SpeedoMeter
 
-#### Preview
+#### 🎬 Preview
 
 ---
 
@@ -172,8 +178,9 @@ export default SpeedoMeterVariant;
 
 ## SpeedoMeter Marker
 
-#### Preview
+#### 🎬 Preview
 
+---
 ![Default SpeedoMeterMarker](./assets/SpeedeMeterMarker.gif)
 
 #### Usage
@@ -213,25 +220,25 @@ export default SpeedoMeterVariant;
 
 ---
 
-# Properties
+## Properties
 
 | Prop                  | Default                                                                | Type     | Description                                                                                                                  | RadialSlider | SpeedoMeter |
 | :-------------------- | :--------------------------------------------------------------------- | :------- | :--------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
 | radius                | 100                                                                    | number   | Size of component                                                                                                            | ✅           | ✅          |
 | min                   | 0                                                                      | number   | Minimum value                                                                                                                | ✅           | ✅          |
-| max                   | 100                                                                    | number   | Max value                                                                                                                    | ✅           | ✅          |
-| step                  | 1                                                                      | number   | step value for component                                                                                                     | ✅           | ✅          |
+| max                   | 100                                                                    | number   | Maximum value                                                                                                                    | ✅           | ✅          |
+| step                  | 1                                                                      | number   | Step value for component                                                                                                     | ✅           | ✅          |
 | statusTitle           | -                                                                      | string   | Status title                                                                                                                 | ✅           | ✅          |
 | statusValue           | -                                                                      | number   | Status value                                                                                                                 | ✅           | ✅          |
 | markerValue           | -                                                                      | number   | Show marker on specific number                                                                                               | ✅           | ✅          |
 | value                 | 0                                                                      | numbe    | Show selection upto this value                                                                                               | ✅           | ✅          |
 | title                 | -                                                                      | string   | Title for component                                                                                                          | ✅           | ✅          |
-| subTitle              | Goal                                                                   | string   | subTitle for component                                                                                                       | ✅           | ❌          |
+| subTitle              | Goal                                                                   | string   | Subtitle for component                                                                                                       | ✅           | ❌          |
 | unit                  | RadilaSlider: 'kCal', SpeedoMeter: 'MB/S'                              | string   | Unit for component                                                                                                           | ✅           | ✅          |
-| thumbRadius           | 18                                                                     | number   | Thump for component                                                                                                          | ✅           | ✅          |
-| thumbColor            | #008ABC                                                                | string   | Color for thump                                                                                                              | ✅           | ✅          |
-| thumbBorderWidth      | 5                                                                      | number   | Width for thump                                                                                                              | ✅           | ✅          |
-| thumbBorderColor      | #FFFFFF                                                                | string   | Border Color for thump                                                                                                       | ✅           | ✅          |
+| thumbRadius           | 18                                                                     | number   | Thumb for component                                                                                                          | ✅           | ✅          |
+| thumbColor            | #008ABC                                                                | string   | Color for thumb                                                                                                              | ✅           | ✅          |
+| thumbBorderWidth      | 5                                                                      | number   | Width for thumb                                                                                                              | ✅           | ✅          |
+| thumbBorderColor      | #FFFFFF                                                                | string   | Border Color for thumb                                                                                                       | ✅           | ✅          |
 | markerLineSize        | 50                                                                     | number   | Size of marker line                                                                                                          | ✅           | ✅          |
 | sliderWidth           | 18                                                                     | number   | Width of slider                                                                                                              | ✅           | ✅          |
 | sliderTrackColor      | #E5E5E5                                                                | string   | Color of unselected slider track                                                                                             | ✅           | ✅          |
@@ -267,7 +274,7 @@ export default SpeedoMeterVariant;
 | isHideLines           | false                                                                  | boolean  | If true,slider lines will be hidden                                                                                          | ✅           | ✅          |
 | isHideMarkerLine      | false                                                                  | boolean  | If true, marked lines will be hidden                                                                                         | ✅           | ✅          |
 | fixedMarker           | false                                                                  | boolean  | If true, marked value will be hidden                                                                                         | ✅           | ✅          |
-| variant               | default                                                                | string   | Different Variansts for components. RadialSlider: default & radial-circle-slider , SpeedoMeter: default & speedometer-marker | ✅           | ✅          |
+| variant               | default                                                                | string   | Different component variants. RadialSlider: default & radial-circle-slider , SpeedoMeter: default & speedometer-marker | ✅           | ✅          |
 | onPress               | {}                                                                     | function | Based on click value will be increased or decreased                                                                          | ✅           | ❌          |
 | stroke                | '#008ABC'                                                              | string   | Color for button icon                                                                                                        | ✅           | ❌          |
 | hideStyle             | {}                                                                     | object   | Content style                                                                                                                | ❌           | ✅          |
@@ -275,7 +282,7 @@ export default SpeedoMeterVariant;
 | markerCircleColor     | #E5E5E5                                                                | string   | Color for marker circle                                                                                                      | ❌           | ✅          |
 | markerPositionY       | 20                                                                     | number   | Marker position for up and down                                                                                              | ❌           | ✅          |
 | markerPositionX       | 20                                                                     | number   | Marker position for right and left                                                                                           | ❌           | ✅          |
-| needleBackgroundColor | #A020F0                                                                | string   | BackgroundColor for needle                                                                                                   | ❌           | ✅          |
+| needleBackgroundColor | #A020F0                                                                | string   | Background color for needle                                                                                                   | ❌           | ✅          |
 | needleColor           | [ { stop: '0%', color:'#ffaca6' }, { stop: '100%', color: '#EA4800' }] | object   | Color for needle                                                                                                             | ❌           | ✅          |
 | needleBorderWidth     | 1.5                                                                    | number   | Width of needle                                                                                                              | ❌           | ✅          |
 | needleHeight          | 30                                                                     | number   | Width of needle                                                                                                              | ❌           | ✅          |
@@ -285,7 +292,7 @@ export default SpeedoMeterVariant;
 
 ---
 
-### Example
+## Example
 
 A full working example project is here [Example](./example/src/App.tsx)
 
@@ -295,6 +302,18 @@ $ yarn example ios   // For ios
 $ yarn example android   // For Android
 ```
 
-### License
+## Find this library useful? ❤️
+Support it by joining [stargazers](https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider/stargazers) for this repository.⭐
+
+## 🤝 How to Contribute
+
+We'd love to have you improve this library or fix a problem 💪
+Check out our [Contributing Guide](CONTRIBUTING.md) for ideas on contributing.
+
+## Bugs / Feature requests / Feedbacks
+
+For bugs, feature requests, and discussion please use [GitHub Issues](https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider/issues)
+
+## License
 
 - [MIT License](LICENSE)
