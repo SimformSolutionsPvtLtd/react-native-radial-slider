@@ -36,7 +36,6 @@ const SpeedoMeter = (
     isHideCenterContent,
     isHideTailText,
     isHideLines,
-    variant,
     unit,
     strokeLinecap,
     max,
@@ -51,8 +50,14 @@ const SpeedoMeter = (
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.value]);
 
-  const { svgSize, containerRef, startPoint, endPoint, startRadian } =
-    useRadialSlider(props);
+  const {
+    svgSize,
+    containerRef,
+    startPoint,
+    endPoint,
+    startRadian,
+    isMarkerVariant,
+  } = useRadialSlider(props);
 
   const onLayout = () => {
     const ref = containerRef.current as any;
@@ -60,8 +65,6 @@ const SpeedoMeter = (
       ref.measure((_x: any, _y: any, _width: any, _height: any) => {});
     }
   };
-
-  const isMarkerVariant = variant === 'speedometer-marker';
 
   return (
     <View

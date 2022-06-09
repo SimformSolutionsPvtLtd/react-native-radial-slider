@@ -53,4 +53,5 @@ export const defaultProps = {
   isHideCenterContent: false,
   fixedMarker: false,
   variant: 'default',
+  markerValueInterval: 10,
 };

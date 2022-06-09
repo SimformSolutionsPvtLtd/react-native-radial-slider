@@ -9,7 +9,7 @@ const RadialVariant = () => {
 
   return (
     <View style={styles.container}>
-      <VariantCard title="With default variant">
+      <VariantCard>
         <RadialSlider
           value={speed}
           min={0}
@@ -19,7 +19,7 @@ const RadialVariant = () => {
           sliderTrackColor={Colors.darkGrey}
         />
       </VariantCard>
-      <VariantCard title="With Radial circle variant">
+      <VariantCard>
         <RadialSlider
           value={speed}
           min={0}

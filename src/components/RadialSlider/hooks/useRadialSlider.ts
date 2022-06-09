@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { StyleSheet } from 'react-native';
 import {
   createRange,
@@ -7,6 +7,7 @@ import {
 } from '../../../utils/commonHelpers';
 import type { RadialSliderProps } from '../types';
 import type { defaultProps } from '../SliderDefaultProps';
+import * as appConstants from '../../../constants/index';
 
 const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
   const {
@@ -22,9 +23,14 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     rightIconStyle,
     max,
     variant,
+    step,
   } = props;
 
-  const radianValue = variant === 'radial-circle-slider' ? 0.01 : openingRadian;
+  const isRadialCircleVariant = variant === appConstants.radialCircleSlider;
+
+  const radianValue = isRadialCircleVariant ? 0.01 : openingRadian;
+
+  const isMarkerVariant = variant === appConstants.speedoMeterMarker;
 
   const angle = (radianValue * 180.0) / Math.PI;
 
@@ -73,6 +79,19 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     },
   ]);
 
+  const marks = useMemo(() => {
+    const stepsLength = Math.round((max - min) / step);
+
+    return [...Array(stepsLength + 1)].map((_val, index) => {
+      const isEven = index % 2 === 0;
+
+      return {
+        isEven,
+        value: Math.round(index * step),
+      };
+    });
+  }, [max, min, step]);
+
   return {
     angle,
     lineCount,
@@ -86,6 +105,9 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     leftButtonStyle,
     rightButtonStyle,
     radianValue,
+    isMarkerVariant,
+    marks,
+    isRadialCircleVariant,
   };
 };
 
