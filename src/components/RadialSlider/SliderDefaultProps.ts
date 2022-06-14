@@ -36,7 +36,7 @@ export const defaultProps = {
   valueStyle: {},
   unitStyle: {},
   buttonContainerStyle: {},
-  letIconStyle: {},
+  leftIconStyle: {},
   rightIconStyle: {},
   openingRadian: Math.PI / 3,
   dynamicMarker: false,

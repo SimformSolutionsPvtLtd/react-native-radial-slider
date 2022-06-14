@@ -20,7 +20,8 @@ const MarkerValueContent = (
     markerValueColor,
   } = props;
 
-  const { lineHeight, lineCount, angle, marks } = useRadialSlider(props);
+  const { lineHeight, lineCount, angle, marks, centerValue } =
+    useRadialSlider(props);
 
   return (
     <>
@@ -43,7 +44,6 @@ const MarkerValueContent = (
         const markerInnerValue = Math.round(
           (max / markerValueInterval) as number
         );
-        const centerValue = Math.round((max - min) / 2) as number;
 
         // if number is below 99(two digit number) then we set -2 for x property in svg Text
         const twoDigitsPositionValue = max < 99 ? -2 : -3;

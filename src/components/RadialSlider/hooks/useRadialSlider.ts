@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import { StyleSheet } from 'react-native';
 import {
   createRange,
   getExtraSize,
@@ -17,24 +16,24 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     thumbRadius,
     thumbBorderWidth,
     min,
-    letIconStyle,
-    disabled,
-    value,
-    rightIconStyle,
     max,
     variant,
     step,
   } = props;
 
+  const centerValue = Math.round((max - min) / 2) as number;
+
   const isRadialCircleVariant = variant === appConstants.radialCircleSlider;
 
-  const radianValue = isRadialCircleVariant ? 0.01 : openingRadian;
+  const radianValue = isRadialCircleVariant ? 0.057 : openingRadian;
 
   const isMarkerVariant = variant === appConstants.speedoMeterMarker;
 
   const angle = (radianValue * 180.0) / Math.PI;
 
-  const lineCount = (360 - angle * 2) as number;
+  const addRadialCircleCount = isRadialCircleVariant ? 6 : 0;
+
+  const lineCount = (360 - angle * 2 + addRadialCircleCount) as number;
 
   const lines = createRange(min, lineCount + min, 1);
 
@@ -65,20 +64,6 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     thumbBorderWidth
   );
 
-  const leftButtonStyle = StyleSheet.flatten([
-    letIconStyle,
-    (disabled || min === value) && {
-      opacity: 0.5,
-    },
-  ]);
-
-  const rightButtonStyle = StyleSheet.flatten([
-    rightIconStyle,
-    (disabled || max === value) && {
-      opacity: 0.5,
-    },
-  ]);
-
   const marks = useMemo(() => {
     const stepsLength = Math.round((max - min) / step);
 
@@ -102,12 +87,11 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     startPoint,
     endPoint,
     startRadian,
-    leftButtonStyle,
-    rightButtonStyle,
     radianValue,
     isMarkerVariant,
     marks,
     isRadialCircleVariant,
+    centerValue,
   };
 };
 

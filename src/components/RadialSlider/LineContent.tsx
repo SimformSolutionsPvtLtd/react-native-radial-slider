@@ -81,6 +81,8 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
           ? false
           : isMarkerLine;
 
+        const radialCircleLineRotation = isRadialCircleVariant ? 86 : 90;
+
         return (
           <G key={index.toString()}>
             {(index % lineSpace === 0 ||
@@ -97,7 +99,9 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
                       : radius + lineHeight
                   }
                   x2={radius + lineHeight / 2 + isSpeedoMarker}
-                  transform={`rotate(${index + 90 + angle})`}
+                  transform={`rotate(${
+                    index + radialCircleLineRotation + angle
+                  })`}
                   strokeWidth={2}
                   stroke={
                     activeIndex > index ||
