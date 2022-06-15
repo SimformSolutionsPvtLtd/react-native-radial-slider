@@ -8,7 +8,7 @@ import Svg, {
   Color,
   NumberProp,
 } from 'react-native-svg';
-import { View, Platform } from 'react-native';
+import { View, Platform, StyleSheet } from 'react-native';
 import type { RadialSliderProps } from './types';
 import { styles } from './styles';
 import { Colors } from '../../theme';
@@ -44,6 +44,8 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     isHideTailText,
     isHideButtons,
     isHideLines,
+    leftIconStyle,
+    rightIconStyle,
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian } =
@@ -55,11 +57,24 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     startPoint,
     endPoint,
     startRadian,
-    leftButtonStyle,
-    rightButtonStyle,
     radianValue,
     isRadialCircleVariant,
+    centerValue,
   } = useRadialSlider(props);
+
+  const leftButtonStyle = StyleSheet.flatten([
+    leftIconStyle,
+    (disabled || min === value) && {
+      opacity: 0.5,
+    },
+  ]);
+
+  const rightButtonStyle = StyleSheet.flatten([
+    rightIconStyle,
+    (disabled || max === value) && {
+      opacity: 0.5,
+    },
+  ]);
 
   const onLayout = () => {
     const ref = containerRef.current as any;
@@ -75,6 +90,14 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
       setValue((prevState: number) => prevState - step);
     }
   };
+
+  const circleXPosition = isRadialCircleVariant
+    ? centerValue < value
+      ? -7
+      : 4
+    : 0;
+
+  const strokeLinecap = isRadialCircleVariant ? 'square' : 'round';
 
   return (
     <View
@@ -112,7 +135,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
               strokeWidth={sliderWidth}
               stroke={sliderTrackColor}
               fill="none"
-              strokeLinecap="round"
+              strokeLinecap={strokeLinecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - radianValue >= Math.PI ? '1' : '0'
               },1,${endPoint.x},${endPoint.y}`}
@@ -121,13 +144,13 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
               strokeWidth={sliderWidth}
               stroke="url(#gradient)"
               fill="none"
-              strokeLinecap="round"
+              strokeLinecap={strokeLinecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - currentRadian >= Math.PI ? '1' : '0'
               },1,${curPoint.x},${curPoint.y}`}
             />
             <Circle
-              cx={curPoint.x}
+              cx={curPoint.x + circleXPosition}
               cy={curPoint.y}
               r={thumbRadius}
               fill={thumbColor || thumbBorderColor}

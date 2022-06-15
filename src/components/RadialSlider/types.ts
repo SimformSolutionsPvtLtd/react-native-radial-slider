@@ -131,7 +131,7 @@ export interface RadialSliderProps {
   /**
    * Left Icon styling.
    */
-  letIconStyle?: StyleProp<ViewStyle>;
+  leftIconStyle?: StyleProp<ViewStyle>;
   /**
    * Right Icon styling.
    */
