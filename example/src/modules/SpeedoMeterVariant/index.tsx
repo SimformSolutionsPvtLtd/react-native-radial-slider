@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
-import { SpeedoMeter } from 'react-native-radial-slider';
+import { RadialSlider } from 'react-native-radial-slider';
 import VariantCard from '../../components/VariantCard';
 import { Colors } from '../../theme';
 
@@ -57,7 +57,8 @@ const SpeedoMeterVariant = () => {
         />
       </View>
       <VariantCard>
-        <SpeedoMeter
+        <RadialSlider
+          variant={'speedometer'}
           value={speed}
           min={0}
           max={200}
@@ -67,13 +68,13 @@ const SpeedoMeterVariant = () => {
         />
       </VariantCard>
       <VariantCard>
-        <SpeedoMeter
+        <RadialSlider
+          variant={'speedometer-marker'}
           value={speed}
           min={0}
           max={200}
           onChange={setSpeed}
           lineColor={Colors.darkGrey}
-          variant="speedometer-marker"
         />
       </VariantCard>
     </View>

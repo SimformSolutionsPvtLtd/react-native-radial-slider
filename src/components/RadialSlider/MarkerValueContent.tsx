@@ -13,7 +13,6 @@ const MarkerValueContent = (
     min,
     max,
     markerValue,
-    dynamicMarker,
     fixedMarker,
     markerValueInterval,
     value,
@@ -27,13 +26,7 @@ const MarkerValueContent = (
     <>
       {marks.map((mark, index) => {
         const markIndex = Math.floor(
-          (((((!dynamicMarker
-            ? fixedMarker
-              ? (value as number)
-              : (markerValue as number)
-            : value) -
-            min) *
-            100) /
+          (((((!fixedMarker ? (markerValue as number) : value) - min) * 100) /
             (max - min)) *
             lineCount) /
             100

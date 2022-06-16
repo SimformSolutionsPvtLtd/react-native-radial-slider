@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
   },
   valueUnit: {
     fontSize: moderateScale(15),
-    paddingLeft: horizontalScale(5),
+    marginLeft: horizontalScale(5),
   },
   statusValueUnit: {
     fontSize: moderateScale(12),
@@ -45,6 +45,8 @@ export const styles = StyleSheet.create({
   buttonsWrapper: {
     position: 'absolute',
     bottom: 35,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   large_header: {
     color: Colors.darkBlue,
@@ -54,6 +56,7 @@ export const styles = StyleSheet.create({
   center: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   helperText: {
     color: Colors.darkCharcoal,
@@ -76,7 +79,7 @@ export const styles = StyleSheet.create({
   },
   subTitleWidth: {
     textAlign: 'center',
-    width: horizontalScale(150),
+    width: horizontalScale(120),
   },
   centerText: {
     flexDirection: 'column',

@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native';
 import React from 'react';
 import { styles } from './styles';
-import type { SpeedoMeterProps } from './types';
+import type { CenterContentProps } from './types';
 
-const CenterContent = (props: SpeedoMeterProps) => {
+const CenterContent = (props: CenterContentProps) => {
   const {
     title,
     subTitle,
@@ -17,26 +17,28 @@ const CenterContent = (props: SpeedoMeterProps) => {
     isHideValue,
     value,
     centerContentStyle,
-    hideStyle,
+    unitValueContenStyle,
   } = props;
 
   return (
     <View style={[styles.hideCenterContent, centerContentStyle]}>
       {!isHideTitle && (
-        <Text style={[titleStyle, styles.helperText]}>{title}</Text>
+        <Text style={[styles.helperText, styles.subTitleWidth, titleStyle]}>
+          {title}
+        </Text>
       )}
       {!isHideValue && (
-        <View style={[styles.hideValue, hideStyle]}>
-          <Text style={[styles.valueText, valueStyle, styles.large_header]}>
+        <View style={[styles.hideValue, unitValueContenStyle]}>
+          <Text style={[styles.valueText, styles.large_header, valueStyle]}>
             {value}
           </Text>
-          <Text style={[styles.valueUnit, unitStyle, styles.helperText]}>
+          <Text style={[styles.valueUnit, styles.helperText, unitStyle]}>
             {unit}
           </Text>
         </View>
       )}
       {!isHideSubtitle && (
-        <Text style={[subTitleStyle, styles.helperText, styles.subTitleWidth]}>
+        <Text style={[styles.helperText, styles.subTitleWidth, subTitleStyle]}>
           {subTitle}
         </Text>
       )}

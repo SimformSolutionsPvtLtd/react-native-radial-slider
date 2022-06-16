@@ -17,7 +17,6 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
     min,
     max,
     markerValue,
-    dynamicMarker,
     isHideMarkerLine,
     fixedMarker,
     value,
@@ -61,13 +60,7 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
         };
 
         const markIndex = Math.floor(
-          (((((!dynamicMarker
-            ? fixedMarker
-              ? (value as number)
-              : (markerValue as number)
-            : value) -
-            min) *
-            100) /
+          (((((!fixedMarker ? (markerValue as number) : value) - min) * 100) /
             (max - min)) *
             lineCount) /
             100
