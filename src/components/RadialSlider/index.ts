@@ -1,5 +1,8 @@
-import RadialSlider from './RadialSlider';
-import SpeedoMeter from './SpeedoMeter';
+import RootSlider from './RootSlider';
 
-export { RadialSlider, SpeedoMeter };
-export type { RadialSliderProps, SpeedoMeterProps } from './types';
+export { RootSlider as RadialSlider };
+export type {
+  RadialSliderProps,
+  SpeedoMeterProps,
+  RootSliderProps,
+} from './types';

@@ -21,13 +21,13 @@ const RadialVariant = () => {
       </VariantCard>
       <VariantCard>
         <RadialSlider
+          variant={'radial-circle-slider'}
           value={speed}
           min={0}
           max={200}
           lineColor={Colors.darkGrey}
           sliderTrackColor={Colors.darkGrey}
           onChange={setSpeed}
-          variant="radial-circle-slider"
         />
       </VariantCard>
     </View>

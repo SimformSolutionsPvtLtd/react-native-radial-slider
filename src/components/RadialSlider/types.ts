@@ -1,9 +1,47 @@
 import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
 import type { Linecap } from 'react-native-svg';
 
-type stringType = string & {};
+type RadialSliderExcludedProps = {
+  unitValueContenStyle?: StyleProp<ViewStyle>;
+  markerCircleSize?: never;
+  markerCircleColor?: never;
+  markerPositionY?: never;
+  markerPositionX?: never;
+  needleBackgroundColor?: never;
+  needleColor?: never;
+  needleBorderWidth?: never;
+  needleHeight?: never;
+  markerValueInterval?: never;
+  markerValueColor?: never;
+  strokeLinecap?: never;
+};
 
-export interface RadialSliderProps {
+export type CenterContentProps = {
+  title?: string;
+  subTitle?: string;
+  unit?: string;
+  titleStyle?: StyleProp<TextStyle>;
+  subTitleStyle?: StyleProp<TextStyle>;
+  valueStyle?: StyleProp<TextStyle>;
+  unitStyle?: StyleProp<TextStyle>;
+  isHideTitle?: boolean;
+  isHideSubtitle?: boolean;
+  isHideValue?: boolean;
+  value?: number;
+  centerContentStyle?: StyleProp<ViewStyle>;
+  unitValueContenStyle?: StyleProp<ViewStyle>;
+};
+
+export type RootSliderProps =
+  | ({
+      variant?: 'radial-circle-slider';
+    } & RadialSliderExcludedProps &
+      RadialSliderProps)
+  | ({
+      variant: 'speedometer-marker' | 'speedometer';
+    } & SpeedoMeterProps);
+
+export type RadialSliderProps = {
   /**
    * Radious of radial slider.
    */
@@ -20,14 +58,6 @@ export interface RadialSliderProps {
    * Radial slider step value.
    */
   step?: number;
-  /**
-   * Status title.
-   */
-  statusTitle?: string;
-  /**
-   * Status value.
-   */
-  statusValue?: number | string;
   /**
    * Show marker on specific number.
    */
@@ -91,23 +121,11 @@ export interface RadialSliderProps {
   /**
    * Callback function which fired on change in track.
    */
-  onChange?: Function;
+  onChange?: (v: number) => void;
   /**
    * Callback function which defines what to do after completion.
    */
-  onComplete?: Function;
-  /**
-   * Status container style.
-   */
-  statusContainerStyle?: StyleProp<ViewStyle>;
-  /**
-   * Status title text style.
-   */
-  statusTitleStyle?: StyleProp<TextStyle>;
-  /**
-   * Status value text style.
-   */
-  statusValueStyle?: StyleProp<TextStyle>;
+  onComplete?: (v: number) => void;
   /**
    * Center content styling.
    */
@@ -157,17 +175,9 @@ export interface RadialSliderProps {
    */
   disabled?: boolean;
   /**
-   * If false, marker will be static.
-   */
-  dynamicMarker?: boolean;
-  /**
    * If true, slider will be hidden.
    */
   isHideSlider?: boolean;
-  /**
-   * If true, status will be hidden.
-   */
-  isHideStatus?: boolean;
   /**
    * If true, center content will be hidden.
    */
@@ -204,11 +214,7 @@ export interface RadialSliderProps {
    * If true, marked value will be hidden.
    */
   fixedMarker?: boolean;
-  /**
-   * Variant for Radial Slider, Variant should be default or radial-circle-slider.
-   */
-  variant?: 'defalut' | 'radial-circle-slider' | stringType;
-}
+};
 
 export interface ButtonProps {
   /**
@@ -233,11 +239,11 @@ export interface ButtonProps {
   stroke?: string;
 }
 
-export interface SpeedoMeterProps extends RadialSliderProps {
+export type SpeedoMeterProps = RadialSliderProps & {
   /**
    * SpeedoMeter content styling.
    */
-  hideStyle?: StyleProp<ViewStyle>;
+  unitValueContenStyle?: StyleProp<ViewStyle>;
   /**
    * Size for marker circle.
    */
@@ -271,10 +277,6 @@ export interface SpeedoMeterProps extends RadialSliderProps {
    */
   needleHeight?: number;
   /**
-   * Variant for SpeedoMeter, Variant should be default or speedometer-marker.
-   */
-  variant?: 'defalut' | 'speedometer-marker' | stringType;
-  /**
    * Show number of value in sequence.
    */
   markerValueInterval?: number;
@@ -285,5 +287,5 @@ export interface SpeedoMeterProps extends RadialSliderProps {
   /**
    * StrokeLineCap for path.
    */
-  strokeLinecap?: Linecap;
-}
+  strokeLinecap?: Linecap | string;
+};

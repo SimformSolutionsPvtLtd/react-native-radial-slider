@@ -6,12 +6,12 @@ import Svg, {
   Stop,
   Color,
   NumberProp,
+  Linecap,
 } from 'react-native-svg';
 import { View, Platform } from 'react-native';
 import type { SpeedoMeterProps } from './types';
 import { styles } from './styles';
 import { useSilderAnimation, useRadialSlider } from './hooks';
-import StautsContent from './StautsContent';
 import CenterContent from './CenterContent';
 import TailText from './TailText';
 import LineContent from './LineContent';
@@ -32,13 +32,13 @@ const SpeedoMeter = (
     markerLineSize,
     contentStyle,
     isHideSlider,
-    isHideStatus,
     isHideCenterContent,
     isHideTailText,
     isHideLines,
     unit,
     strokeLinecap,
     max,
+    unitStyle,
   } = props;
 
   const { value, setValue, curPoint, currentRadian } =
@@ -104,7 +104,7 @@ const SpeedoMeter = (
               strokeWidth={sliderWidth}
               stroke={sliderTrackColor}
               fill="none"
-              strokeLinecap={strokeLinecap}
+              strokeLinecap={strokeLinecap as Linecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - openingRadian >= Math.PI ? '1' : '0'
               },1,${endPoint.x},${endPoint.y}`}
@@ -113,7 +113,7 @@ const SpeedoMeter = (
               strokeWidth={sliderWidth}
               stroke="url(#gradient)"
               fill="none"
-              strokeLinecap={strokeLinecap}
+              strokeLinecap={strokeLinecap as Linecap}
               d={`M${startPoint.x},${startPoint.y} A ${radius},${radius},0,${
                 startRadian - currentRadian >= Math.PI ? '1' : '0'
               },1,${curPoint.x},${curPoint.y}`}
@@ -123,20 +123,19 @@ const SpeedoMeter = (
         <NeedleContent {...props} value={value} />
       </Svg>
       <View style={[styles.content, contentStyle]} pointerEvents="box-none">
-        {/* Status Content */}
-        {!isHideStatus && <StautsContent {...props} />}
         {/* Center Content */}
         {!isHideCenterContent && (
           <CenterContent
             {...props}
             value={value}
-            hideStyle={[
+            unitValueContenStyle={[
               styles.centerText,
               // eslint-disable-next-line react-native/no-inline-styles
               { marginLeft: unit?.length ? unit?.length * 5 : 10 },
             ]}
             isHideSubtitle
-            unitStyle={styles.speedValueUnit}
+            isHideTitle
+            unitStyle={[styles.speedValueUnit, unitStyle]}
             centerContentStyle={styles.centerTextView}
           />
         )}

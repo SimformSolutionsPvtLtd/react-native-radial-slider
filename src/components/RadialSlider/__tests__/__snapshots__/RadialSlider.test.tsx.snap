@@ -9,7 +9,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
         "alignItems": "center",
         "justifyContent": "center",
       },
-      Object {},
+      undefined,
       Object {
         "height": 246,
         "width": 246,
@@ -3887,66 +3887,10 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           "right": 0,
           "top": 0,
         },
-        Object {},
+        undefined,
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "position": "absolute",
-            "right": -25,
-            "top": -10,
-          },
-          Object {},
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {},
-            Object {
-              "color": "#333333",
-              "fontSize": 21,
-              "fontWeight": "400",
-            },
-          ]
-        }
-      >
-        
-      </Text>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "marginTop": 4.928571428571429,
-          }
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "fontSize": 27,
-                "marginBottom": -8.214285714285714,
-                "marginTop": -8.214285714285714,
-              },
-              Object {},
-              Object {
-                "color": "#0B3471",
-                "fontSize": 40.5,
-                "fontWeight": "600",
-              },
-            ]
-          }
-        >
-          
-        </Text>
-      </View>
-    </View>
     <View
       style={
         Array [
@@ -3955,19 +3899,23 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             "justifyContent": "center",
             "marginTop": -32.857142857142854,
           },
-          Object {},
+          undefined,
         ]
       }
     >
       <Text
         style={
           Array [
-            Object {},
             Object {
               "color": "#333333",
               "fontSize": 21,
               "fontWeight": "400",
             },
+            Object {
+              "textAlign": "center",
+              "width": 240,
+            },
+            undefined,
           ]
         }
       >
@@ -3990,12 +3938,12 @@ exports[`RadialSlider component Match Snapshot 1`] = `
               Object {
                 "fontSize": 60,
               },
-              Object {},
               Object {
                 "color": "#0B3471",
                 "fontSize": 40.5,
                 "fontWeight": "600",
               },
+              undefined,
             ]
           }
         >
@@ -4006,14 +3954,14 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             Array [
               Object {
                 "fontSize": 22.5,
-                "paddingLeft": 10,
+                "marginLeft": 10,
               },
-              Object {},
               Object {
                 "color": "#333333",
                 "fontSize": 21,
                 "fontWeight": "400",
               },
+              undefined,
             ]
           }
         >
@@ -4023,7 +3971,6 @@ exports[`RadialSlider component Match Snapshot 1`] = `
       <Text
         style={
           Array [
-            Object {},
             Object {
               "color": "#333333",
               "fontSize": 21,
@@ -4031,8 +3978,9 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             },
             Object {
               "textAlign": "center",
-              "width": 300,
+              "width": 240,
             },
+            undefined,
           ]
         }
       >
@@ -4043,10 +3991,12 @@ exports[`RadialSlider component Match Snapshot 1`] = `
       style={
         Array [
           Object {
+            "alignItems": "center",
             "bottom": 35,
+            "justifyContent": "center",
             "position": "absolute",
           },
-          Object {},
+          undefined,
         ]
       }
     >
@@ -4055,6 +4005,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "justifyContent": "center",
           }
         }
       >

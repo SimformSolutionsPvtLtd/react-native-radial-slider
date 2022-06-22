@@ -31,6 +31,10 @@ const NeedleContent = (
 
         const needleRotation = activeIndex < 50 ? 122 : 119;
 
+        const circleSize = Math.round(radius / markerCircleSize) * 2;
+
+        const dynamicNeedleHeight = (needleHeight / radius) * 100 + 5;
+
         return (
           <G
             key={_value}
@@ -40,13 +44,15 @@ const NeedleContent = (
             x={markerPositionX}
             y={markerPositionY}>
             <Circle
-              r={markerCircleSize}
+              r={circleSize}
               cx={radius}
               cy={radius}
               fill={markerCircleColor}
             />
             <Polygon
-              points={`97, 118 103, 118 100, ${needleHeight}`}
+              points={`97, 118 103, 118 100, ${dynamicNeedleHeight}`}
+              x={radius - 100}
+              y={radius - 100}
               fill={needleBackgroundColor}
               strokeWidth={needleBorderWidth}
               stroke={needleColor}

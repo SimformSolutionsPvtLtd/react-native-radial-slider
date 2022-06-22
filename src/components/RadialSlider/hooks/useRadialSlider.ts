@@ -6,7 +6,7 @@ import {
 } from '../../../utils/commonHelpers';
 import type { RadialSliderProps } from '../types';
 import type { defaultProps } from '../SliderDefaultProps';
-import * as appConstants from '../../../constants/index';
+import Constants from '../../../constants';
 
 const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
   const {
@@ -23,11 +23,11 @@ const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
 
   const centerValue = Math.round((max - min) / 2) as number;
 
-  const isRadialCircleVariant = variant === appConstants.radialCircleSlider;
+  const isRadialCircleVariant = variant === Constants.radialCircleSlider;
 
   const radianValue = isRadialCircleVariant ? 0.057 : openingRadian;
 
-  const isMarkerVariant = variant === appConstants.speedoMeterMarker;
+  const isMarkerVariant = variant === Constants.speedoMeterMarker;
 
   const angle = (radianValue * 180.0) / Math.PI;
 

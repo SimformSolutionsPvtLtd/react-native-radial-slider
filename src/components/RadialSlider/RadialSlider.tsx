@@ -15,7 +15,6 @@ import { Colors } from '../../theme';
 import { useSilderAnimation, useRadialSlider } from './hooks';
 import { defaultProps } from './SliderDefaultProps';
 import ButtonContent from './ButtonContent';
-import StautsContent from './StautsContent';
 import CenterContent from './CenterContent';
 import TailText from './TailText';
 import LineContent from './LineContent';
@@ -39,7 +38,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     min,
     max,
     isHideSlider,
-    isHideStatus,
     isHideCenterContent,
     isHideTailText,
     isHideButtons,
@@ -162,8 +160,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
         )}
       </Svg>
       <View style={[styles.content, contentStyle]} pointerEvents="box-none">
-        {/* Status Content */}
-        {!isHideStatus && <StautsContent {...props} />}
         {/* Center Content */}
         {!isHideCenterContent && <CenterContent {...props} value={value} />}
         {/* Button Content */}

@@ -1,2 +1,7 @@
-export const radialCircleSlider = 'radial-circle-slider';
-export const speedoMeterMarker = 'speedometer-marker';
+const Constants = {
+  speedometer: 'speedometer',
+  radialCircleSlider: 'radial-circle-slider',
+  speedoMeterMarker: 'speedometer-marker',
+};
+
+export default Constants;
