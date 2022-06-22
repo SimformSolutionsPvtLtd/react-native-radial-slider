@@ -27,7 +27,7 @@ const SpeedoMeter = (
     sliderWidth,
     sliderTrackColor,
     openingRadian,
-    linearGradient,
+    linearGradient = [],
     style,
     markerLineSize,
     contentStyle,
@@ -35,20 +35,26 @@ const SpeedoMeter = (
     isHideCenterContent,
     isHideTailText,
     isHideLines,
-    unit,
+    unit = '',
     strokeLinecap,
     max,
     unitStyle,
+    value = 0,
+    unitValueContenStyle,
   } = props;
 
-  const { value, setValue, curPoint, currentRadian } =
-    useSilderAnimation(props);
+  const {
+    value: sliderValue = 0,
+    setValue,
+    curPoint,
+    currentRadian,
+  } = useSilderAnimation(props);
 
   useEffect(() => {
-    const updateValue = props.value > max ? max : props.value;
+    const updateValue = value > max ? max : value;
     setValue(updateValue);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [props.value]);
+  }, [value]);
 
   const {
     svgSize,
@@ -81,7 +87,7 @@ const SpeedoMeter = (
         preserveAspectRatio="none">
         <Defs>
           <LinearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="gradient">
-            {linearGradient.map(
+            {linearGradient?.map(
               (
                 item: {
                   stop: NumberProp | undefined;
@@ -94,9 +100,13 @@ const SpeedoMeter = (
             )}
           </LinearGradient>
         </Defs>
-        {!isHideTailText && <TailText {...props} />}
-        {!isHideLines && <LineContent {...props} value={value} />}
-        {isMarkerVariant && <MarkerValueContent {...props} value={value} />}
+        {!isHideTailText && <TailText {...(props as object)} />}
+        {!isHideLines && (
+          <LineContent {...(props as object)} value={sliderValue} />
+        )}
+        {isMarkerVariant && (
+          <MarkerValueContent {...(props as object)} value={sliderValue} />
+        )}
 
         {!isMarkerVariant && !isHideSlider && (
           <>
@@ -120,16 +130,17 @@ const SpeedoMeter = (
             />
           </>
         )}
-        <NeedleContent {...props} value={value} />
+        <NeedleContent {...(props as object)} value={sliderValue} />
       </Svg>
       <View style={[styles.content, contentStyle]} pointerEvents="box-none">
         {/* Center Content */}
         {!isHideCenterContent && (
           <CenterContent
-            {...props}
-            value={value}
+            {...(props as object)}
+            value={sliderValue}
             unitValueContenStyle={[
               styles.centerText,
+              unitValueContenStyle,
               // eslint-disable-next-line react-native/no-inline-styles
               { marginLeft: unit?.length ? unit?.length * 5 : 10 },
             ]}

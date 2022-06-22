@@ -1,16 +1,13 @@
 import React from 'react';
 import { useRadialSlider } from './hooks';
-import type { SpeedoMeterProps } from './types';
+import type { NeedleContentProps } from './types';
 import { Circle, G, Polygon } from 'react-native-svg';
-import type { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
 
-const NeedleContent = (
-  props: SpeedoMeterProps & typeof defaultSpeedoMeterProps
-) => {
+const NeedleContent = (props: NeedleContentProps) => {
   const {
-    radius,
-    min,
-    max,
+    radius = 100,
+    min = 0,
+    max = 100,
     markerCircleSize,
     markerCircleColor,
     markerPositionY,
@@ -27,13 +24,17 @@ const NeedleContent = (
     <>
       {lines.map(_value => {
         const activeIndex =
-          ((((props.value - min) * 100) / (max - min)) * lineCount) / 100;
+          (((((props?.value as number) - min) * 100) / (max - min)) *
+            lineCount) /
+          100;
 
         const needleRotation = activeIndex < 50 ? 122 : 119;
 
-        const circleSize = Math.round(radius / markerCircleSize) * 2;
+        const circleSize =
+          Math.round(radius / (markerCircleSize as number)) * 2;
 
-        const dynamicNeedleHeight = (needleHeight / radius) * 100 + 5;
+        const dynamicNeedleHeight =
+          (((needleHeight as number) / radius) as number) * 100 + 5;
 
         return (
           <G

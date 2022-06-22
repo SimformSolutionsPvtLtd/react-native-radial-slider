@@ -1,20 +1,17 @@
 import React from 'react';
-import type { SpeedoMeterProps } from './types';
-import type { defaultSpeedoMeterProps } from './SpeedometerDefaultProps';
+import type { MarkerValueContentProps } from './types';
 import { G, Text as SVGText } from 'react-native-svg';
 import { useRadialSlider } from './hooks';
 
-const MarkerValueContent = (
-  props: SpeedoMeterProps & typeof defaultSpeedoMeterProps
-) => {
+const MarkerValueContent = (props: MarkerValueContentProps) => {
   const {
-    radius,
-    thumbBorderWidth,
-    min,
-    max,
+    radius = 100,
+    thumbBorderWidth = 5,
+    min = 0,
+    max = 100,
     markerValue,
-    fixedMarker,
-    markerValueInterval,
+    fixedMarker = false,
+    markerValueInterval = 10,
     value,
     markerValueColor,
   } = props;
@@ -26,7 +23,9 @@ const MarkerValueContent = (
     <>
       {marks.map((mark, index) => {
         const markIndex = Math.floor(
-          (((((!fixedMarker ? (markerValue as number) : value) - min) * 100) /
+          (((((!fixedMarker ? (markerValue as number) : (value as number)) -
+            min) *
+            100) /
             (max - min)) *
             lineCount) /
             100
