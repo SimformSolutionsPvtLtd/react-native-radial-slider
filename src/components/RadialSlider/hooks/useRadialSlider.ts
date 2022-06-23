@@ -4,21 +4,20 @@ import {
   getExtraSize,
   polarToCartesian,
 } from '../../../utils/commonHelpers';
-import type { RadialSliderProps } from '../types';
-import type { defaultProps } from '../SliderDefaultProps';
+import type { RadialSliderHookProps } from '../types';
 import Constants from '../../../constants';
 
-const useRadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
+const useRadialSlider = (props: RadialSliderHookProps) => {
   const {
-    radius,
-    sliderWidth,
-    openingRadian,
-    thumbRadius,
-    thumbBorderWidth,
-    min,
-    max,
+    radius = 100,
+    sliderWidth = 18,
+    openingRadian = Math.PI / 3,
+    thumbRadius = 18,
+    thumbBorderWidth = 5,
+    min = 0,
+    max = 200,
     variant,
-    step,
+    step = 1,
   } = props;
 
   const centerValue = Math.round((max - min) / 2) as number;

@@ -44,6 +44,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     isHideLines,
     leftIconStyle,
     rightIconStyle,
+    stroke,
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian } =
@@ -171,14 +172,14 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
                 buttonType="left-btn"
                 style={leftButtonStyle}
                 disabled={disabled || min === value}
-                stroke={Colors.blue}
+                stroke={stroke ?? Colors.blue}
               />
               <ButtonContent
                 disabled={disabled || max === value}
                 onPress={() => onPressButtons('up')}
                 style={rightButtonStyle}
                 buttonType="right-btn"
-                stroke={Colors.blue}
+                stroke={stroke ?? Colors.blue}
               />
             </View>
           </View>

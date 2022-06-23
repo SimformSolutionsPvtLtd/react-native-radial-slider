@@ -10,8 +10,7 @@ import {
   getRadianByValue,
   polarToCartesian,
 } from '../../../utils/commonHelpers';
-import type { RadialSliderProps } from '../types';
-import type { defaultProps } from '../SliderDefaultProps';
+import type { RadialSliderAnimationHookProps } from '../types';
 import useRadialSlider from './useRadialSlider';
 
 interface StartCartesianProps {
@@ -19,18 +18,18 @@ interface StartCartesianProps {
   y: number;
 }
 
-const useSilderAnimation = (props: RadialSliderProps & typeof defaultProps) => {
+const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
   const {
-    step,
-    radius,
-    sliderWidth,
-    thumbRadius,
-    thumbBorderWidth,
+    step = 1,
+    radius = 100,
+    sliderWidth = 18,
+    thumbRadius = 18,
+    thumbBorderWidth = 5,
     disabled,
-    min,
-    onChange,
-    max,
-    onComplete,
+    min = 0,
+    onChange = () => {},
+    max = 100,
+    onComplete = () => {},
   } = props;
 
   let moveStartValue: number;
@@ -56,7 +55,7 @@ const useSilderAnimation = (props: RadialSliderProps & typeof defaultProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth
+      thumbBorderWidth as number
     );
     return true;
   };
@@ -78,7 +77,7 @@ const useSilderAnimation = (props: RadialSliderProps & typeof defaultProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth
+      thumbBorderWidth as number
     );
 
     const ratio =
@@ -132,7 +131,7 @@ const useSilderAnimation = (props: RadialSliderProps & typeof defaultProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth
+    thumbBorderWidth as number
   );
 
   return {

@@ -1,26 +1,26 @@
 import { Platform } from 'react-native';
 import React, { useState, useEffect } from 'react';
-import type { RadialSliderProps } from './types';
+import type { LineContentProps } from './types';
 import { G, Line } from 'react-native-svg';
-import type { defaultProps } from './SliderDefaultProps';
 import { useRadialSlider } from './hooks';
+import { Colors } from '../../theme';
 
-const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
+const LineContent = (props: LineContentProps) => {
   const [markerPositionValues, setMarkerPositionValues] = useState([]);
   const {
-    radius,
-    linearGradient,
-    thumbBorderWidth,
-    markerLineSize,
-    lineColor,
-    lineSpace,
-    min,
-    max,
+    radius = 100,
+    linearGradient = [],
+    thumbBorderWidth = 5,
+    markerLineSize = 50,
+    lineColor = Colors.grey,
+    lineSpace = 3,
+    min = 0,
+    max = 100,
     markerValue,
     isHideMarkerLine,
-    fixedMarker,
+    fixedMarker = false,
     value,
-    markerValueInterval,
+    markerValueInterval = 10,
   } = props;
 
   const {
@@ -48,7 +48,8 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
       {lines.map((_value, index) => {
         const plusActiveIndex = index === 0 ? 0 : 1;
         const activeIndex =
-          ((((value - min) * 100) / (max - min)) * lineCount) / 100 +
+          (((((value as number) - min) * 100) / (max - min)) * lineCount) /
+            100 +
           plusActiveIndex;
 
         const getMarketIndex = () => {
@@ -60,7 +61,9 @@ const LineContent = (props: RadialSliderProps & typeof defaultProps) => {
         };
 
         const markIndex = Math.floor(
-          (((((!fixedMarker ? (markerValue as number) : value) - min) * 100) /
+          (((((!fixedMarker ? (markerValue as number) : (value as number)) -
+            min) *
+            100) /
             (max - min)) *
             lineCount) /
             100

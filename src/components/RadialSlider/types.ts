@@ -32,6 +32,81 @@ export type CenterContentProps = {
   unitValueContenStyle?: StyleProp<ViewStyle>;
 };
 
+export type LineContentProps = {
+  radius?: number;
+  linearGradient?: { stop: string; color: string }[];
+  thumbBorderWidth?: number;
+  markerLineSize?: number;
+  lineColor?: string;
+  lineSpace?: number;
+  min?: number;
+  max?: number;
+  markerValue?: number;
+  isHideMarkerLine?: boolean;
+  fixedMarker?: boolean;
+  value?: number;
+  markerValueInterval?: number;
+};
+
+export type TextTailProps = {
+  min?: number;
+  max?: number;
+  unit?: string;
+};
+
+export type RadialSliderHookProps = {
+  radius?: number;
+  sliderWidth?: number;
+  openingRadian?: number;
+  thumbRadius?: number;
+  thumbBorderWidth?: number;
+  min?: number;
+  max?: number;
+  variant?: 'radial-circle-slider' | string;
+  step?: number;
+};
+
+export type MarkerValueContentProps = {
+  radius?: number;
+  thumbBorderWidth?: number;
+  min?: number;
+  max?: number;
+  markerValue?: number;
+  fixedMarker?: boolean;
+  markerValueInterval?: number;
+  value?: number;
+  markerValueColor?: string;
+};
+
+export type RadialSliderAnimationHookProps = {
+  step?: number;
+  radius?: number;
+  sliderWidth?: number;
+  thumbRadius?: number;
+  thumbBorderWidth?: number;
+  disabled?: boolean;
+  min?: number;
+  max?: number;
+  onChange?: (v: number) => void;
+  onComplete?: (v: number) => void;
+  value: number;
+};
+
+export type NeedleContentProps = {
+  radius?: number;
+  min?: number;
+  max?: number;
+  markerCircleSize?: number;
+  markerCircleColor?: string;
+  markerPositionY?: number;
+  markerPositionX?: number;
+  needleBackgroundColor?: string;
+  needleColor?: string;
+  needleBorderWidth?: number;
+  needleHeight?: number;
+  value?: number;
+};
+
 export type RootSliderProps =
   | ({
       variant?: 'radial-circle-slider';
@@ -214,6 +289,10 @@ export type RadialSliderProps = {
    * If true, marked value will be hidden.
    */
   fixedMarker?: boolean;
+  /**
+   * Color for icon
+   */
+  stroke?: string;
 };
 
 export interface ButtonProps {
@@ -288,4 +367,19 @@ export type SpeedoMeterProps = RadialSliderProps & {
    * StrokeLineCap for path.
    */
   strokeLinecap?: Linecap | string;
+  centerContentStyle?: never;
+  buttonContainerStyle?: never;
+  leftIconStyle?: never;
+  rightIconStyle?: never;
+  subTitleStyle?: never;
+  disabled?: never;
+  isHideButtons?: never;
+  subTitle?: never;
+  thumbColor?: never;
+  thumbBorderWidth?: never;
+  thumbBorderColor?: never;
+  thumbRadius?: never;
+  title?: never;
+  titleStyle?: never;
+  step?: never;
 };

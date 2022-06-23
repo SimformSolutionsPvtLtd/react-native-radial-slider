@@ -1,13 +1,12 @@
 import React from 'react';
 import { Text as SVGText, G, TSpan } from 'react-native-svg';
-import type { defaultProps } from './SliderDefaultProps';
 import { useRadialSlider } from './hooks';
-import type { RadialSliderProps } from './types';
+import type { RadialSliderProps, TextTailProps } from './types';
 import { Colors } from '../../theme';
 
-const TailText = (props: RadialSliderProps & typeof defaultProps) => {
+const TailText = (props: TextTailProps) => {
   const { unit, min, max } = props;
-  const { startPoint, endPoint } = useRadialSlider(props);
+  const { startPoint, endPoint } = useRadialSlider(props as RadialSliderProps);
 
   return (
     <>

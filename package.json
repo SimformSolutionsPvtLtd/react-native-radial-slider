@@ -2,7 +2,7 @@
   "name": "react-native-radial-slider",
   "version": "0.0.1",
   "description": "React Native component to select or highlight a specific value from a range of values",
-  "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider/blob/main/README.md",
+  "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Simform Solutions",
@@ -55,7 +55,8 @@
     "react-native": "^0.67.1",
     "react-native-svg": "^12.1.0",
     "react-test-renderer": "^17.0.2",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "patch-package": "^6.4.7"
   },
   "peerDependencies": {
     "react": "*",
@@ -92,8 +93,5 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "dependencies": {
-    "patch-package": "^6.4.7"
   }
 }
