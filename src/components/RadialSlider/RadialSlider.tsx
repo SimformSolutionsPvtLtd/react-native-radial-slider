@@ -116,12 +116,12 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
             {linearGradient.map(
               (
                 item: {
-                  stop: NumberProp | undefined;
+                  offset: NumberProp | undefined;
                   color: Color | undefined;
                 },
                 index: React.Key | null | undefined
               ) => (
-                <Stop key={index} offset={item.stop} stopColor={item.color} />
+                <Stop key={index} offset={item.offset} stopColor={item.color} />
               )
             )}
           </LinearGradient>

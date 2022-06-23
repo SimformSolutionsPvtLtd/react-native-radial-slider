@@ -50,9 +50,9 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           gradient={
             Array [
               0,
-              -21338,
+              -15756829,
               1,
-              -1423360,
+              -16042895,
             ]
           }
           gradientTransform={null}

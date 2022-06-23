@@ -17,7 +17,7 @@ const CenterContent = (props: CenterContentProps) => {
     isHideValue,
     value,
     centerContentStyle,
-    unitValueContenStyle,
+    unitValueContentStyle,
   } = props;
 
   return (
@@ -28,7 +28,7 @@ const CenterContent = (props: CenterContentProps) => {
         </Text>
       )}
       {!isHideValue && (
-        <View style={[styles.hideValue, unitValueContenStyle]}>
+        <View style={[styles.hideValue, unitValueContentStyle]}>
           <Text style={[styles.valueText, styles.large_header, valueStyle]}>
             {value}
           </Text>
