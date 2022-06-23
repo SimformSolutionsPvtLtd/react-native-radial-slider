@@ -1,0 +1,97 @@
+{
+  "name": "react-native-radial-slider",
+  "version": "0.0.1",
+  "description": "React Native component to select or highlight a specific value from a range of values",
+  "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider#readme",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Simform Solutions",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "typescript",
+    "slider",
+    "radial",
+    "radial-slider",
+    "circular-slider",
+    "rn",
+    "speedometer",
+    "meter"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc -p .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepare": "husky install",
+    "test": "jest",
+    "postinstall": "patch-package",
+    "example": "yarn --cwd example"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/runtime": "^7.16.7",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@testing-library/react-native": "^9.0.0",
+    "@types/jest": "^27.4.0",
+    "@types/react-native": "^0.66.15",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.4.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "lint-staged": "^11.1.2",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "react": "^17.0.2",
+    "react-native": "^0.67.1",
+    "react-native-svg": "^12.1.0",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "^4.5.5",
+    "patch-package": "^6.4.7"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn build && yarn test"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
