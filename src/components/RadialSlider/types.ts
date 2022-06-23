@@ -2,7 +2,7 @@ import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
 import type { Linecap } from 'react-native-svg';
 
 type RadialSliderExcludedProps = {
-  unitValueContenStyle?: StyleProp<ViewStyle>;
+  unitValueContentStyle?: StyleProp<ViewStyle>;
   markerCircleSize?: never;
   markerCircleColor?: never;
   markerPositionY?: never;
@@ -29,12 +29,12 @@ export type CenterContentProps = {
   isHideValue?: boolean;
   value?: number;
   centerContentStyle?: StyleProp<ViewStyle>;
-  unitValueContenStyle?: StyleProp<ViewStyle>;
+  unitValueContentStyle?: StyleProp<ViewStyle>;
 };
 
 export type LineContentProps = {
   radius?: number;
-  linearGradient?: { stop: string; color: string }[];
+  linearGradient?: { offset: string; color: string }[];
   thumbBorderWidth?: number;
   markerLineSize?: number;
   lineColor?: string;
@@ -192,7 +192,7 @@ export type RadialSliderProps = {
   /**
    * Gradient color of selected track.
    */
-  linearGradient?: { stop: string; color: string }[];
+  linearGradient?: { offset: string; color: string }[];
   /**
    * Callback function which fired on change in track.
    */
@@ -322,7 +322,7 @@ export type SpeedoMeterProps = RadialSliderProps & {
   /**
    * SpeedoMeter content styling.
    */
-  unitValueContenStyle?: StyleProp<ViewStyle>;
+  unitValueContentStyle?: StyleProp<ViewStyle>;
   /**
    * Size for marker circle.
    */

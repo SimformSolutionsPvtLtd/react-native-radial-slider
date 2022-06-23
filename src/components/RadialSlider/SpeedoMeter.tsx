@@ -40,7 +40,7 @@ const SpeedoMeter = (
     max,
     unitStyle,
     value = 0,
-    unitValueContenStyle,
+    unitValueContentStyle,
   } = props;
 
   const {
@@ -90,12 +90,12 @@ const SpeedoMeter = (
             {linearGradient?.map(
               (
                 item: {
-                  stop: NumberProp | undefined;
+                  offset: NumberProp | undefined;
                   color: Color | undefined;
                 },
                 index: React.Key | null | undefined
               ) => (
-                <Stop key={index} offset={item.stop} stopColor={item.color} />
+                <Stop key={index} offset={item.offset} stopColor={item.color} />
               )
             )}
           </LinearGradient>
@@ -138,9 +138,9 @@ const SpeedoMeter = (
           <CenterContent
             {...(props as object)}
             value={sliderValue}
-            unitValueContenStyle={[
+            unitValueContentStyle={[
               styles.centerText,
-              unitValueContenStyle,
+              unitValueContentStyle,
               // eslint-disable-next-line react-native/no-inline-styles
               { marginLeft: unit?.length ? unit?.length * 5 : 10 },
             ]}

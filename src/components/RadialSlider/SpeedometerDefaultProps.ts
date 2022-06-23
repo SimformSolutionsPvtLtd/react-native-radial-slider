@@ -14,8 +14,8 @@ export const defaultSpeedoMeterProps = {
   lineColor: Colors.grey,
   lineSpace: 3,
   linearGradient: [
-    { stop: '0%', color: Colors.skyBlue },
-    { stop: '100%', color: Colors.darkBlue },
+    { offset: '0%', color: Colors.skyBlue },
+    { offset: '100%', color: Colors.darkBlue },
   ],
   onChange: (_v: number) => {},
   onComplete: (_v: number) => {},
