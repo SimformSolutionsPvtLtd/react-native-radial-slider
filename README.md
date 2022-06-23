@@ -6,13 +6,11 @@
 
 ---
 
-<br>
+This is a pure javascript and react-native-svg based library which provides two variants `Radial Slider` and `Speedo Meter`
 
-This is pure javascript and react-native-svg based library. That provides a radial slider to select any specific value from a range of values and also provides a speedo meter to highlight a specific value from a range of values.
+Radial Slider allows you to select any specific value from a range of values. It comes with two variants, one is default and which allows selection on a 180-degree arc and the second one is 360-degree which allows selection of values on a complete circle. It can be used to select/set goals, vision, range, etc.
 
-The radial slider has two variants, one is default and which allows selection on a 180-degree arc and the second one is 360-degree which allows selection of values on a complete circle. It can be used to select/set goals, vision, criteria, range, etc.
-
-The speedometer also has two variants, the default one shows a needle and another one shows marking values with a needle. It can be used to display the speed of the internet, vehicle, fan, etc.
+The Speedo Meter allows you to highlight a specific value from a range of values. It comes with two variants, the default one shows a needle and another one shows marking values with a needle. It can be used to display the speed of the internet, vehicle, fan, etc.
 
 This library is easy to use and provides you full customization, so you can customize components based on your need.
 
@@ -43,7 +41,7 @@ $ yarn add react-native-radial-slider react-native-svg
 # RadialSlider
 
 - RadialSlider has two different variants, default one and radial-circle-slider
-- RadialSlider can be used to select / set goal, vision, criteria, range etc
+- RadialSlider can be used to select / set goal, vision, range etc
 
 ## Default RadialSlider
 
