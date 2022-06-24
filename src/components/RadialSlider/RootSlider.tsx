@@ -10,8 +10,10 @@ const RootSlider = (props: RootSliderProps) => {
 
   return variant === Constants.speedoMeterMarker ||
     variant === Constants.speedometer ? (
+    // @ts-ignore
     <SpeedoMeter
-      {...(props as SpeedoMeterProps & typeof defaultSpeedoMeterProps)}
+      {...(props as SpeedoMeterProps &
+        typeof defaultSpeedoMeterProps as object)}
     />
   ) : (
     <RadialSlider {...props} />

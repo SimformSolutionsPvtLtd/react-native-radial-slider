@@ -6,6 +6,7 @@ import VariantCard from '../../components/VariantCard';
 
 const RadialVariant = () => {
   const [speed, setSpeed] = useState(0);
+  const [circleSliderSpeed, setCircleSliderSpeed] = useState(0);
 
   return (
     <View style={styles.container}>
@@ -22,12 +23,12 @@ const RadialVariant = () => {
       <VariantCard>
         <RadialSlider
           variant={'radial-circle-slider'}
-          value={speed}
+          value={circleSliderSpeed}
           min={0}
           max={200}
           lineColor={Colors.darkGrey}
           sliderTrackColor={Colors.darkGrey}
-          onChange={setSpeed}
+          onChange={setCircleSliderSpeed}
         />
       </VariantCard>
     </View>
