@@ -4059,7 +4059,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   r="20"
                 />
                 <RNSVGPath
-                  d="M12.5168 23.7373L20.067 16.1616L27.6172 23.7373"
+                  d="M12.5168 17.2727L20.067 24.8485L27.6172 17.2727"
                   propList={
                     Array [
                       "stroke",
@@ -4127,7 +4127,7 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   r="20"
                 />
                 <RNSVGPath
-                  d="M12.5168 17.2727L20.067 24.8485L27.6172 17.2727"
+                  d="M12.5168 23.7373L20.067 16.1616L27.6172 23.7373"
                   propList={
                     Array [
                       "stroke",
