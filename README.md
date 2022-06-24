@@ -2,11 +2,12 @@
 
 # react-native-radial-slider
 
-[![npm version](https://img.shields.io/badge/npm%20package-0.0.1-orange)](https://www.npmjs.org/package/react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/badge/npm%20package-0.0.3-orange)](https://www.npmjs.org/package/react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
 
-This is a pure javascript and react-native-svg based library which provides two variants `Radial Slider` and `Speedo Meter`
+This is a pure javascript and react-native-svg based library that provides many variants of `Radial Slider` and `Speedo Meter` including  `default`, `radial-circle-slider`, `speedometer` and `speedometer-marker`
+
 
 Radial Slider allows you to select any specific value from a range of values. It comes with two variants, one is default and which allows selection on a 180-degree arc and the second one is 360-degree which allows selection of values on a complete circle. It can be used to select/set goals, vision, range, etc.
 
@@ -30,10 +31,18 @@ This library is easy to use and provides you full customization, so you can cust
 
 ## Installation
 
+##### 1. Install library and react-native-svg
+
 ```bash
 $ npm install react-native-radial-slider react-native-svg
 # --- or ---
 $ yarn add react-native-radial-slider react-native-svg
+```
+
+##### 2. Install cocoapods in the ios project
+
+```bash
+cd ios && pod install
 ```
 
 ##### Know more about [react-native-svg](https://www.npmjs.com/package/react-native-svg)
@@ -124,6 +133,7 @@ export default RadialVariant;
 ```
 
 # SpeedoMeter
+> The speedometer will not take user inputs, when we need to update dynamic values at that time we can use it
 
 - SpeedoMeter has two different variants, speedometer and speedometer-marker
 - SpeedoMeter can be used to display the speed of an internet, vehicle, fan etc

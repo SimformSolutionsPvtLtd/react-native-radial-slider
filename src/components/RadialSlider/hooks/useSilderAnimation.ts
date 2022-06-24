@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import {
   PanResponder,
   GestureResponderEvent,
@@ -41,6 +41,16 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
   const [value, setValue] = useState(
     props.value >= min ? props.value || min : min
   );
+
+  useEffect(() => {
+    if (props?.value < min) {
+      setValue(min);
+    } else if (props?.value > max) {
+      setValue(max);
+    } else {
+      setValue(props.value);
+    }
+  }, [max, min, props.value]);
 
   const handlePanResponderGrant = () => {
     moveStartValue = prevValue.current;

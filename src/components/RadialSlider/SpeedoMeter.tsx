@@ -41,6 +41,7 @@ const SpeedoMeter = (
     unitStyle,
     value = 0,
     unitValueContentStyle,
+    min,
   } = props;
 
   const {
@@ -51,10 +52,14 @@ const SpeedoMeter = (
   } = useSilderAnimation(props);
 
   useEffect(() => {
-    const updateValue = value > max ? max : value;
-    setValue(updateValue);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [value]);
+    if (value < min) {
+      setValue(min);
+    } else if (value > max) {
+      setValue(max);
+    } else {
+      setValue(value);
+    }
+  }, [max, min, setValue, value]);
 
   const {
     svgSize,
