@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import {
   createRange,
   getExtraSize,
@@ -22,11 +22,31 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
 
   const centerValue = Math.round((max - min) / 2) as number;
 
+  //For default variant in radial slider
+  const isRadialSliderVariant = variant === Constants.radialSlider;
+
+  //For radial-circle-slider variant
   const isRadialCircleVariant = variant === Constants.radialCircleSlider;
+
+  //For speedometer-marker variant
+  const isMarkerVariant = variant === Constants.speedoMeterMarker;
+
+  //For speedometer variant
+  const isSpeedoMeterVariant = variant === Constants.speedometer;
 
   const radianValue = isRadialCircleVariant ? 0.057 : openingRadian;
 
-  const isMarkerVariant = variant === Constants.speedoMeterMarker;
+  useEffect(() => {
+    if (isMarkerVariant)
+      if (min < 0) {
+        throw 'Negative number is not allowed';
+      } else if (max < 0) {
+        throw 'Negative number is not allowed';
+      }
+    if (max < min) {
+      throw 'max value should be greater than min';
+    }
+  }, [isMarkerVariant, max, min]);
 
   const angle = (radianValue * 180.0) / Math.PI;
 
@@ -64,17 +84,33 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
   );
 
   const marks = useMemo(() => {
-    const stepsLength = Math.round((max - min) / step);
+    if (isMarkerVariant) {
+      const stepsLength = Math.round((max - min) / step);
 
-    return [...Array(stepsLength + 1)].map((_val, index) => {
-      const isEven = index % 2 === 0;
+      return [...Array(stepsLength + 1)].map((_val, index) => {
+        const isEven = index % 2 === 0;
 
-      return {
-        isEven,
-        value: Math.round(index * step),
-      };
-    });
-  }, [max, min, step]);
+        return {
+          isEven,
+          value: Math.round(index * step),
+        };
+      });
+    } else {
+      const array: any = [];
+      for (let i = 0; i <= max; i++) {
+        array.push(i);
+      }
+
+      return array.map((index: number) => {
+        const isEven = index % 2 === 0;
+
+        return {
+          isEven,
+          value: Math.round(index * step),
+        };
+      });
+    }
+  }, [isMarkerVariant, max, min, step]);
 
   return {
     angle,
@@ -91,6 +127,8 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     marks,
     isRadialCircleVariant,
     centerValue,
+    isRadialSliderVariant,
+    isSpeedoMeterVariant,
   };
 };
 

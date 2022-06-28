@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Svg, {
   Path,
   Defs,
@@ -20,6 +20,9 @@ import TailText from './TailText';
 import LineContent from './LineContent';
 
 const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
+  const [isStart, setIsStart] = useState<boolean>(false);
+  const [iconPosition, setIconPosition] = useState<string>('');
+
   const {
     step,
     radius,
@@ -60,6 +63,22 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     isRadialCircleVariant,
     centerValue,
   } = useRadialSlider(props);
+
+  useEffect(() => {
+    //check max value length
+    const maxLength = max?.toString()?.length;
+
+    const timerId = setTimeout(handleValue, maxLength > 2 ? 10 : 100);
+    return () => clearTimeout(timerId);
+  });
+
+  const handleValue = () => {
+    if (iconPosition === 'up' && max > value) {
+      isStart && setValue((prevState: number) => prevState + step);
+    } else if (iconPosition === 'down' && min < value) {
+      isStart && setValue((prevState: number) => prevState - step);
+    }
+  };
 
   const leftButtonStyle = StyleSheet.flatten([
     leftIconStyle,
@@ -169,6 +188,11 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
             <View style={styles.center}>
               <ButtonContent
                 onPress={() => onPressButtons('down')}
+                onLongPress={() => {
+                  setIsStart(true);
+                  setIconPosition('down');
+                }}
+                onPressOut={() => setIsStart(false)}
                 buttonType="left-btn"
                 style={leftButtonStyle}
                 disabled={disabled || min === value}
@@ -177,6 +201,11 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
               <ButtonContent
                 disabled={disabled || max === value}
                 onPress={() => onPressButtons('up')}
+                onLongPress={() => {
+                  setIsStart(true);
+                  setIconPosition('up');
+                }}
+                onPressOut={() => setIsStart(false)}
                 style={rightButtonStyle}
                 buttonType="right-btn"
                 stroke={stroke ?? Colors.blue}

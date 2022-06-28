@@ -2,12 +2,11 @@
 
 # react-native-radial-slider
 
-[![npm version](https://img.shields.io/badge/npm%20package-0.0.3-orange)](https://www.npmjs.org/package/react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/badge/npm%20package-0.0.4-orange)](https://www.npmjs.org/package/react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
 
-This is a pure javascript and react-native-svg based library that provides many variants of `Radial Slider` and `Speedo Meter` including  `default`, `radial-circle-slider`, `speedometer` and `speedometer-marker`
-
+This is a pure javascript and react-native-svg based library that provides many variants of `Radial Slider` and `Speedo Meter` including `default`, `radial-circle-slider`, `speedometer` and `speedometer-marker`
 
 Radial Slider allows you to select any specific value from a range of values. It comes with two variants, one is default and which allows selection on a 180-degree arc and the second one is 360-degree which allows selection of values on a complete circle. It can be used to select/set goals, vision, range, etc.
 
@@ -133,6 +132,7 @@ export default RadialVariant;
 ```
 
 # SpeedoMeter
+
 > The speedometer will not take user inputs, when we need to update dynamic values at that time we can use it
 
 - SpeedoMeter has two different variants, speedometer and speedometer-marker

@@ -11,6 +11,8 @@ const ButtonContent = (props: ButtonProps) => {
       activeOpacity={0.7}
       disabled={disabled}
       onPress={onPress}
+      onLongPress={props?.onLongPress}
+      onPressOut={props?.onPressOut}
       style={style}>
       <Svg height="30" width="45">
         <G>
