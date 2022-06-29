@@ -48,9 +48,10 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     leftIconStyle,
     rightIconStyle,
     stroke,
+    onChange = () => {},
   } = props;
 
-  const { panResponder, value, setValue, curPoint, currentRadian } =
+  const { panResponder, value, setValue, curPoint, currentRadian, prevValue } =
     useSilderAnimation(props);
 
   const {
@@ -74,9 +75,9 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
 
   const handleValue = () => {
     if (iconPosition === 'up' && max > value) {
-      isStart && setValue((prevState: number) => prevState + step);
+      isStart && onPressButtons('up');
     } else if (iconPosition === 'down' && min < value) {
-      isStart && setValue((prevState: number) => prevState - step);
+      isStart && onPressButtons('down');
     }
   };
 
@@ -103,9 +104,19 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
 
   const onPressButtons = (type: string) => {
     if (type === 'up' && max > value) {
-      setValue((prevState: number) => prevState + step);
+      setValue((prevState: number) => {
+        prevValue.current = prevState + step;
+
+        return prevState + step;
+      });
+      onChange(value);
     } else if (type === 'down' && min < value) {
-      setValue((prevState: number) => prevState - step);
+      setValue((prevState: number) => {
+        prevValue.current = prevState - step;
+
+        return prevState - step;
+      });
+      onChange(value);
     }
   };
 
