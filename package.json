@@ -1,6 +1,6 @@
 {
   "name": "react-native-radial-slider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Native component to select or highlight a specific value from a range of values",
   "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider#readme",
   "main": "lib/index.js",

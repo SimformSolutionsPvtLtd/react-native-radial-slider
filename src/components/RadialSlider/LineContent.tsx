@@ -31,6 +31,8 @@ const LineContent = (props: LineContentProps) => {
     isMarkerVariant,
     marks,
     isRadialCircleVariant,
+    isRadialSliderVariant,
+    isSpeedoMeterVariant,
   } = useRadialSlider(props);
 
   const markerInnerValue = Math.round((max / markerValueInterval) as number);
@@ -73,9 +75,10 @@ const LineContent = (props: LineContentProps) => {
 
         const isSpeedoMarker = !isMarkerVariant ? 0 : isMarkerLine ? -10 : 0;
 
-        const isSpeedoMeterMarkerLine = isRadialCircleVariant
-          ? false
-          : isMarkerLine;
+        const isSpeedoMeterMarkerLine =
+          isRadialCircleVariant || isRadialSliderVariant || isSpeedoMeterVariant
+            ? false
+            : isMarkerLine;
 
         const radialCircleLineRotation = isRadialCircleVariant ? 86 : 90;
 

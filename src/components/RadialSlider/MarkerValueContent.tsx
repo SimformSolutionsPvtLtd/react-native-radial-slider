@@ -21,7 +21,7 @@ const MarkerValueContent = (props: MarkerValueContentProps) => {
 
   return (
     <>
-      {marks.map((mark, index) => {
+      {marks.map((mark: { value: number }, index: number) => {
         const markIndex = Math.floor(
           (((((!fixedMarker ? (markerValue as number) : (value as number)) -
             min) *
