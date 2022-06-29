@@ -316,6 +316,14 @@ export interface ButtonProps {
    * Color for icon
    */
   stroke?: string;
+  /**
+   * Based on click, the value will continue to increase or decrease
+   */
+  onLongPress?: () => void;
+  /**
+   * Based on click, the value will stop to continue to increase or decrease
+   */
+  onPressOut?: () => void;
 }
 
 export type SpeedoMeterProps = RadialSliderProps & {

@@ -39,18 +39,17 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
   const prevValue = useRef(props.value > min ? props.value : min);
 
   const [value, setValue] = useState(
-    props.value >= min ? props.value || min : min
+    props?.value < min ? min : props?.value > max ? max : props?.value
   );
 
   useEffect(() => {
-    if (props?.value < min) {
-      setValue(min);
-    } else if (props?.value > max) {
+    if (max < props?.value) {
       setValue(max);
-    } else {
-      setValue(props.value);
+    } else if (min > props?.value) {
+      setValue(min);
     }
-  }, [max, min, props.value]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [max, min]);
 
   const handlePanResponderGrant = () => {
     moveStartValue = prevValue.current;
