@@ -4,7 +4,6 @@ import Svg, {
   Defs,
   LinearGradient,
   Stop,
-  Color,
   NumberProp,
   Linecap,
 } from 'react-native-svg';
@@ -96,7 +95,7 @@ const SpeedoMeter = (
               (
                 item: {
                   offset: NumberProp | undefined;
-                  color: Color | undefined;
+                  color: string | undefined;
                 },
                 index: React.Key | null | undefined
               ) => (

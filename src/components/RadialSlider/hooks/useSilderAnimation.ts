@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
-  PanResponder,
   GestureResponderEvent,
+  PanResponder,
   PanResponderGestureState,
 } from 'react-native';
 import {
@@ -50,6 +50,20 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [max, min]);
+
+  useEffect(() => {
+    if (min <= props?.value && max >= props?.value) {
+      setValue(props?.value);
+      prevValue.current = props?.value;
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props?.value]);
+
+  useEffect(() => {
+    onChange(value);
+    prevValue.current = value;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [value]);
 
   const handlePanResponderGrant = () => {
     moveStartValue = prevValue.current;
