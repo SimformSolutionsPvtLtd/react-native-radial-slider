@@ -132,7 +132,7 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     if (disabled) {
       return;
     }
-    onComplete(value);
+    onComplete(prevValue.current);
   };
 
   const panResponder = useRef(
