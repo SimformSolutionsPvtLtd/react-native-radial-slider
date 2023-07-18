@@ -1,6 +1,6 @@
 {
   "name": "react-native-radial-slider",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "React Native component to select or highlight a specific value from a range of values",
   "homepage": "https://github.com/SimformSolutionsPvtLtd/react-native-radial-slider#readme",
   "main": "lib/index.js",
@@ -29,7 +29,7 @@
   "scripts": {
     "build": "rm -rf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky install",
+    "prepare": "husky install && yarn build",
     "test": "jest",
     "example": "yarn --cwd example"
   },
