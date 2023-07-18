@@ -2,7 +2,7 @@
 
 # react-native-radial-slider
 
-[![npm version](https://img.shields.io/badge/npm%20package-0.0.4-orange)](https://www.npmjs.org/package/react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![react-native-radial-slider on npm](https://img.shields.io/npm/v/react-native-radial-slider.svg?style=flat)](https://www.npmjs.com/package/react-native-radial-slider) [![react-native-radial-slider downloads](https://img.shields.io/npm/dm/react-native-radial-slider)](https://www.npmtrends.com/react-native-radial-slider) [![react-native-radial-slider install size](https://packagephobia.com/badge?p=react-native-radial-slider)](https://packagephobia.com/result?p=react-native-radial-slider) [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://www.android.com) [![iOS](https://img.shields.io/badge/Platform-iOS-green?logo=apple)](https://developer.apple.com/ios) [![MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -296,9 +296,9 @@ export default SpeedoMeterVariant;
 A full working example project is here [Example](./example/src/App.tsx)
 
 ```sh
-$ yarn
-$ yarn example ios   // For ios
-$ yarn example android   // For Android
+yarn
+yarn example ios   // For ios
+yarn example android   // For Android
 ```
 
 ## Find this library useful? ❤️

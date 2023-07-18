@@ -16,7 +16,7 @@ const ButtonContent = (props: ButtonProps) => {
       style={style}>
       <Svg height="30" width="45">
         <G>
-          <Circle cx="20" cy="20" r="20" />
+          <Circle cx="20" cy="20" r="20" fill="none" />
           <Path
             d={
               buttonType === 'left-btn'
@@ -27,6 +27,7 @@ const ButtonContent = (props: ButtonProps) => {
             strokeWidth="2.4"
             strokeLinecap="round"
             strokeLinejoin="round"
+            fill="none"
           />
         </G>
       </Svg>

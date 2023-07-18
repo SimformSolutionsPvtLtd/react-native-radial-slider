@@ -5,7 +5,6 @@ import Svg, {
   LinearGradient,
   Stop,
   Circle,
-  Color,
   NumberProp,
 } from 'react-native-svg';
 import { View, Platform, StyleSheet } from 'react-native';
@@ -48,7 +47,6 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
     leftIconStyle,
     rightIconStyle,
     stroke,
-    onChange = () => {},
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian, prevValue } =
@@ -109,14 +107,12 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
 
         return prevState + step;
       });
-      onChange(value);
     } else if (type === 'down' && min < value) {
       setValue((prevState: number) => {
         prevValue.current = prevState - step;
 
         return prevState - step;
       });
-      onChange(value);
     }
   };
 
@@ -147,7 +143,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
               (
                 item: {
                   offset: NumberProp | undefined;
-                  color: Color | undefined;
+                  color: string | undefined;
                 },
                 index: React.Key | null | undefined
               ) => (
