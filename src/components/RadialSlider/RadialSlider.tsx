@@ -103,15 +103,19 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
   const onPressButtons = (type: string) => {
     if (type === 'up' && max > value) {
       setValue((prevState: number) => {
-        prevValue.current = prevState + step;
+        const calculatedValue = prevState + step;
+        const roundedValue = parseFloat(calculatedValue.toFixed(1));
+        prevValue.current = roundedValue;
 
-        return prevState + step;
+        return roundedValue;
       });
     } else if (type === 'down' && min < value) {
       setValue((prevState: number) => {
-        prevValue.current = prevState - step;
+        const calculatedValue = prevState - step;
+        const roundedValue = parseFloat(calculatedValue.toFixed(1));
+        prevValue.current = roundedValue;
 
-        return prevState - step;
+        return roundedValue;
       });
     }
   };
