@@ -18,6 +18,7 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     max = 200,
     variant,
     step = 1,
+    thumbPosition = 'bottom',
   } = props;
 
   const centerValue = Math.round((max - min) / 2) as number;
@@ -35,6 +36,9 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
   const isSpeedoMeterVariant = variant === Constants.speedometer;
 
   const radianValue = isRadialCircleVariant ? 0.057 : openingRadian;
+
+  //Check if the thumb is positioned at the top and the slider has a radial circle variant
+  const isTopVariant = thumbPosition === 'top' && isRadialCircleVariant;
 
   useEffect(() => {
     if (isMarkerVariant)
@@ -72,7 +76,8 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth
+    thumbBorderWidth,
+    isTopVariant
   );
 
   const endPoint = polarToCartesian(
@@ -80,7 +85,8 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth
+    thumbBorderWidth,
+    isTopVariant
   );
 
   const marks = useMemo(() => {

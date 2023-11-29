@@ -40,12 +40,15 @@ const polarToCartesian = (
   radius: number,
   sliderWidth: number,
   thumbRadius: number,
-  thumbBorderWidth: number
+  thumbBorderWidth: number,
+  isTopVariant: boolean
 ) => {
+  const calculatedRadian = isTopVariant ? radian + Math.PI : radian;
+
   const distance =
     radius + getExtraSize(sliderWidth, thumbBorderWidth, thumbRadius) / 2;
-  const x = distance + radius * Math.sin(radian);
-  const y = distance + radius * Math.cos(radian);
+  const x = distance + radius * Math.sin(calculatedRadian);
+  const y = distance + radius * Math.cos(calculatedRadian);
 
   return { x, y };
 };
@@ -56,15 +59,24 @@ const cartesianToPolar = (
   radius: number,
   sliderWidth: number,
   thumbRadius: number,
-  thumbBorderWidth: number
+  thumbBorderWidth: number,
+  isTopVariant: boolean
 ) => {
   const distance =
     radius + getExtraSize(sliderWidth, thumbRadius, thumbBorderWidth) / 2;
+
   if (x === distance) {
     return y > distance ? 0 : Math.PI / 2;
   }
+
   const a = Math.atan((y - distance) / (x - distance));
-  return (x < distance ? (Math.PI * 3) / 2 : Math.PI / 2) - a;
+
+  const isXGreaterThanDistance = isTopVariant ? x > distance : x < distance;
+
+  const polarAngle =
+    (isXGreaterThanDistance ? (Math.PI * 3) / 2 : Math.PI / 2) - a;
+
+  return polarAngle;
 };
 
 const getCurrentRadian = (

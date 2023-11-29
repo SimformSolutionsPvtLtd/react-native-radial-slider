@@ -29,6 +29,7 @@ const RadialVariant = () => {
           lineColor={Colors.darkGrey}
           sliderTrackColor={Colors.darkGrey}
           onChange={setCircleSliderSpeed}
+          thumbPosition={'top'}
         />
       </VariantCard>
     </View>

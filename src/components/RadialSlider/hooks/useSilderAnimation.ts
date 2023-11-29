@@ -4,6 +4,7 @@ import {
   PanResponder,
   PanResponderGestureState,
 } from 'react-native';
+import Constants from '../../../../src/constants';
 import {
   cartesianToPolar,
   getCurrentRadian,
@@ -30,7 +31,13 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     onChange = () => {},
     max = 100,
     onComplete = () => {},
+    thumbPosition = 'bottom',
+    variant,
   } = props;
+
+  // Check if the thumb is positioned at the top and the slider has a radial circle variant
+  const isTopVariant =
+    thumbPosition === 'top' && variant === Constants.radialCircleSlider;
 
   let moveStartValue: number;
   let startCartesian: StartCartesianProps;
@@ -78,7 +85,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      isTopVariant
     );
     return true;
   };
@@ -100,7 +108,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      isTopVariant
     );
 
     const ratio =
@@ -154,7 +163,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth as number
+    thumbBorderWidth as number,
+    isTopVariant
   );
 
   return {

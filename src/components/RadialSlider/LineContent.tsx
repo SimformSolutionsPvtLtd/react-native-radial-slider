@@ -80,7 +80,11 @@ const LineContent = (props: LineContentProps) => {
             ? false
             : isMarkerLine;
 
-        const radialCircleLineRotation = isRadialCircleVariant ? 86 : 90;
+        const rotationAngle = props?.thumbPosition === 'top' ? 266 : 86;
+
+        const radialCircleLineRotation = isRadialCircleVariant
+          ? rotationAngle
+          : 90;
 
         return (
           <G key={index.toString()}>

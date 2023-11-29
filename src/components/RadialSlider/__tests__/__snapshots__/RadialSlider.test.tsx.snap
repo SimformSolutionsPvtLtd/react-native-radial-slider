@@ -20,8 +20,8 @@ exports[`RadialSlider component Match Snapshot 1`] = `
 >
   <RNSVGSvgView
     align="none"
-    bbHeight={271}
-    bbWidth={271}
+    bbHeight="271"
+    bbWidth="271"
     focusable={false}
     height={271}
     meetOrSlice={0}
@@ -44,7 +44,14 @@ exports[`RadialSlider component Match Snapshot 1`] = `
     vbWidth={296}
     width={271}
   >
-    <RNSVGGroup>
+    <RNSVGGroup
+      fill={
+        Object {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
       <RNSVGDefs>
         <RNSVGLinearGradient
           gradient={
@@ -65,6 +72,12 @@ exports[`RadialSlider component Match Snapshot 1`] = `
         />
       </RNSVGDefs>
       <RNSVGGroup
+        fill={
+          Object {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
         matrix={
           Array [
             1,
@@ -80,10 +93,15 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           content={null}
           dx={Array []}
           dy={Array []}
-          fill={4281545523}
+          fill={
+            Object {
+              "payload": 4281545523,
+              "type": 0,
+            }
+          }
           font={
             Object {
-              "fontSize": 12,
+              "fontSize": "12",
             }
           }
           propList={
@@ -99,22 +117,34 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             content="0 kCal"
             dx={Array []}
             dy={Array []}
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             font={Object {}}
             rotate={Array []}
             x={
               Array [
-                36.39745962155614,
+                "36.39745962155614",
               ]
             }
             y={
               Array [
-                173,
+                "173",
               ]
             }
           />
         </RNSVGText>
       </RNSVGGroup>
       <RNSVGGroup
+        fill={
+          Object {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
         matrix={
           Array [
             1,
@@ -130,10 +160,15 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           content={null}
           dx={Array []}
           dy={Array []}
-          fill={4281545523}
+          fill={
+            Object {
+              "payload": 4281545523,
+              "type": 0,
+            }
+          }
           font={
             Object {
-              "fontSize": 12,
+              "fontSize": "12",
             }
           }
           propList={
@@ -149,24 +184,50 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             content="100 kCal"
             dx={Array []}
             dy={Array []}
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             font={Object {}}
             rotate={Array []}
             x={
               Array [
-                209.60254037844385,
+                "209.60254037844385",
               ]
             }
             y={
               Array [
-                173,
+                "173",
               ]
             }
           />
         </RNSVGText>
       </RNSVGGroup>
-      <RNSVGGroup>
-        <RNSVGGroup>
+      <RNSVGGroup
+        fill={
+          Object {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -198,20 +259,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -243,20 +336,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -288,20 +413,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -333,20 +490,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -378,20 +567,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -423,20 +644,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -468,20 +721,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -513,20 +798,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -558,20 +875,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -603,20 +952,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -648,20 +1029,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -693,20 +1106,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -738,20 +1183,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -783,20 +1260,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -828,20 +1337,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -873,20 +1414,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -918,20 +1491,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -963,20 +1568,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1008,20 +1645,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1053,20 +1722,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1098,20 +1799,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1143,20 +1876,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1188,20 +1953,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1233,20 +2030,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1278,20 +2107,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1323,20 +2184,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1368,20 +2261,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1413,20 +2338,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1458,20 +2415,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1503,20 +2492,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1548,20 +2569,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1593,20 +2646,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1638,20 +2723,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1683,20 +2800,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1728,20 +2877,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1773,20 +2954,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1818,20 +3031,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1863,20 +3108,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1908,20 +3185,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1953,20 +3262,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -1998,20 +3339,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2043,20 +3416,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2088,20 +3493,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2133,20 +3570,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2178,20 +3647,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2223,20 +3724,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2268,20 +3801,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2313,20 +3878,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2358,20 +3955,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2403,20 +4032,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2448,20 +4109,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2493,20 +4186,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2538,20 +4263,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2583,20 +4340,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2628,20 +4417,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2673,20 +4494,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2718,20 +4571,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2763,20 +4648,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2808,20 +4725,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2853,20 +4802,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2898,20 +4879,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2943,20 +4956,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -2988,20 +5033,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3033,20 +5110,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3078,20 +5187,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3123,20 +5264,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3168,20 +5341,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3213,20 +5418,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3258,20 +5495,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3303,20 +5572,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3348,20 +5649,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3393,20 +5726,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3438,20 +5803,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3483,20 +5880,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3528,20 +5957,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3573,20 +6034,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3618,20 +6111,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3663,20 +6188,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3708,20 +6265,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3753,20 +6342,52 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
-        <RNSVGGroup />
-        <RNSVGGroup />
-        <RNSVGGroup>
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        />
+        <RNSVGGroup
+          fill={
+            Object {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+        >
           <RNSVGGroup
+            fill={
+              Object {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
             matrix={
               Array [
                 1,
@@ -3798,13 +6419,18 @@ exports[`RadialSlider component Match Snapshot 1`] = `
                   "strokeLinecap",
                 ]
               }
-              stroke={4293256677}
+              stroke={
+                Object {
+                  "payload": 4293256677,
+                  "type": 0,
+                }
+              }
               strokeLinecap={1}
-              strokeWidth={2}
-              x1={128}
-              x2={114}
-              y1={0}
-              y2={0}
+              strokeWidth="2"
+              x1="128"
+              x2="114"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
         </RNSVGGroup>
@@ -3820,9 +6446,14 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             "strokeLinecap",
           ]
         }
-        stroke={4293256677}
+        stroke={
+          Object {
+            "payload": 4293256677,
+            "type": 0,
+          }
+        }
         strokeLinecap={1}
-        strokeWidth={18}
+        strokeWidth="18"
       />
       <RNSVGPath
         d="M36.39745962155614,173 A 100,100,0,0,1,36.39745962155614,173"
@@ -3836,18 +6467,23 @@ exports[`RadialSlider component Match Snapshot 1`] = `
           ]
         }
         stroke={
-          Array [
-            1,
-            "gradient",
-          ]
+          Object {
+            "brushRef": "gradient",
+            "type": 1,
+          }
         }
         strokeLinecap={1}
-        strokeWidth={18}
+        strokeWidth="18"
       />
       <RNSVGCircle
-        cx={36.39745962155614}
-        cy={173}
-        fill={4278225596}
+        cx="36.39745962155614"
+        cy="173"
+        fill={
+          Object {
+            "payload": 4278225596,
+            "type": 0,
+          }
+        }
         onMoveShouldSetResponder={[Function]}
         onMoveShouldSetResponderCapture={[Function]}
         onResponderEnd={[Function]}
@@ -3867,10 +6503,15 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             "strokeWidth",
           ]
         }
-        r={18}
+        r="18"
         responsible={true}
-        stroke={4294967295}
-        strokeWidth={5}
+        stroke={
+          Object {
+            "payload": 4294967295,
+            "type": 0,
+          }
+        }
+        strokeWidth="5"
       />
     </RNSVGGroup>
   </RNSVGSvgView>
@@ -4051,24 +6692,51 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             }
             width="45"
           >
-            <RNSVGGroup>
-              <RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                Object {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGGroup
+                fill={
+                  Object {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
                 <RNSVGCircle
                   cx="20"
                   cy="20"
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
                   r="20"
                 />
                 <RNSVGPath
                   d="M12.5168 17.2727L20.067 24.8485L27.6172 17.2727"
+                  fill={null}
                   propList={
                     Array [
+                      "fill",
                       "stroke",
                       "strokeWidth",
                       "strokeLinecap",
                       "strokeLinejoin",
                     ]
                   }
-                  stroke={4278225596}
+                  stroke={
+                    Object {
+                      "payload": 4278225596,
+                      "type": 0,
+                    }
+                  }
                   strokeLinecap={1}
                   strokeLinejoin={1}
                   strokeWidth="2.4"
@@ -4119,24 +6787,51 @@ exports[`RadialSlider component Match Snapshot 1`] = `
             }
             width="45"
           >
-            <RNSVGGroup>
-              <RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                Object {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGGroup
+                fill={
+                  Object {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
                 <RNSVGCircle
                   cx="20"
                   cy="20"
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
                   r="20"
                 />
                 <RNSVGPath
                   d="M12.5168 23.7373L20.067 16.1616L27.6172 23.7373"
+                  fill={null}
                   propList={
                     Array [
+                      "fill",
                       "stroke",
                       "strokeWidth",
                       "strokeLinecap",
                       "strokeLinejoin",
                     ]
                   }
-                  stroke={4278225596}
+                  stroke={
+                    Object {
+                      "payload": 4278225596,
+                      "type": 0,
+                    }
+                  }
                   strokeLinecap={1}
                   strokeLinejoin={1}
                   strokeWidth="2.4"
