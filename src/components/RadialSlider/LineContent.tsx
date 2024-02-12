@@ -80,7 +80,20 @@ const LineContent = (props: LineContentProps) => {
             ? false
             : isMarkerLine;
 
-        const radialCircleLineRotation = isRadialCircleVariant ? 86 : 90;
+        // Calculate the slider point adjustment based on the provided start point
+        // The values -4 and -2 are used for fine-tuning the adjustment
+        // -4 accounts for a base adjustment, and -2 is a multiplier applied to the start point
+        const sliderPointAdjustment = -4 - 2 * (props?.startAngle || 0);
+
+        // Adjust the slider start point based on variant type or use a default value (86)
+        const adjustedSliderStartPoint =
+          isRadialCircleVariant && props?.startAngle != null
+            ? props.startAngle + sliderPointAdjustment
+            : 86;
+
+        const radialCircleLineRotation = isRadialCircleVariant
+          ? adjustedSliderStartPoint
+          : 90;
 
         return (
           <G key={index.toString()}>

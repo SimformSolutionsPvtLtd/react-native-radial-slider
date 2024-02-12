@@ -11,7 +11,7 @@ import { View, Platform, StyleSheet } from 'react-native';
 import type { RadialSliderProps } from './types';
 import { styles } from './styles';
 import { Colors } from '../../theme';
-import { useSilderAnimation, useRadialSlider } from './hooks';
+import { useSliderAnimation, useRadialSlider } from './hooks';
 import { defaultProps } from './SliderDefaultProps';
 import ButtonContent from './ButtonContent';
 import CenterContent from './CenterContent';
@@ -50,7 +50,7 @@ const RadialSlider = (props: RadialSliderProps & typeof defaultProps) => {
   } = props;
 
   const { panResponder, value, setValue, curPoint, currentRadian, prevValue } =
-    useSilderAnimation(props);
+    useSliderAnimation(props);
 
   const {
     svgSize,

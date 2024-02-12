@@ -10,7 +10,7 @@ import Svg, {
 import { View, Platform } from 'react-native';
 import type { SpeedoMeterProps } from './types';
 import { styles } from './styles';
-import { useSilderAnimation, useRadialSlider } from './hooks';
+import { useSliderAnimation, useRadialSlider } from './hooks';
 import CenterContent from './CenterContent';
 import TailText from './TailText';
 import LineContent from './LineContent';
@@ -48,7 +48,7 @@ const SpeedoMeter = (
     setValue,
     curPoint,
     currentRadian,
-  } = useSilderAnimation(props);
+  } = useSliderAnimation(props);
 
   useEffect(() => {
     if (value < min) {
