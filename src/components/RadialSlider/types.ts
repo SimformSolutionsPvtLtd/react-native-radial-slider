@@ -46,6 +46,7 @@ export type LineContentProps = {
   fixedMarker?: boolean;
   value?: number;
   markerValueInterval?: number;
+  thumbPoint?: number;
 };
 
 export type TextTailProps = {
@@ -64,6 +65,7 @@ export type RadialSliderHookProps = {
   max?: number;
   variant?: 'radial-circle-slider' | string;
   step?: number;
+  thumbPoint?: number;
 };
 
 export type MarkerValueContentProps = {
@@ -90,6 +92,8 @@ export type RadialSliderAnimationHookProps = {
   onChange?: (v: number) => void;
   onComplete?: (v: number) => void;
   value: number;
+  variant?: string;
+  thumbPoint?: number;
 };
 
 export type NeedleContentProps = {
@@ -169,6 +173,10 @@ export type RadialSliderProps = {
    * Border color of thumb/knob.
    */
   thumbBorderColor?: string;
+  /**
+   * Starting position of thumb/knob
+   */
+  thumbPoint?: number;
   /**
    * Size of marker line.
    */

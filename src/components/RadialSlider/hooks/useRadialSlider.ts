@@ -16,8 +16,9 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     thumbBorderWidth = 5,
     min = 0,
     max = 200,
-    variant,
+    variant = 'default',
     step = 1,
+    thumbPoint = 270,
   } = props;
 
   const centerValue = Math.round((max - min) / 2) as number;
@@ -72,7 +73,9 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth
+    thumbBorderWidth,
+    thumbPoint,
+    variant
   );
 
   const endPoint = polarToCartesian(
@@ -80,7 +83,9 @@ const useRadialSlider = (props: RadialSliderHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth
+    thumbBorderWidth,
+    thumbPoint,
+    variant
   );
 
   const marks = useMemo(() => {

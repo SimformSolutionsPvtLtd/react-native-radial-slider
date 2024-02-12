@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
-import { RadialSlider } from 'react-native-radial-slider';
+import { RadialSlider } from '../../../../src';
 import VariantCard from '../../components/VariantCard';
 import { Colors } from '../../theme';
 

@@ -80,7 +80,15 @@ const LineContent = (props: LineContentProps) => {
             ? false
             : isMarkerLine;
 
-        const radialCircleLineRotation = isRadialCircleVariant ? 86 : 90;
+        const thumbPointAdjustment = -4 - 2 * (props?.thumbPoint || 0);
+        const adjustedThumbPoint =
+          isRadialCircleVariant && props?.thumbPoint !== undefined
+            ? props?.thumbPoint + thumbPointAdjustment
+            : 86;
+
+        const radialCircleLineRotation = isRadialCircleVariant
+          ? adjustedThumbPoint
+          : 90;
 
         return (
           <G key={index.toString()}>

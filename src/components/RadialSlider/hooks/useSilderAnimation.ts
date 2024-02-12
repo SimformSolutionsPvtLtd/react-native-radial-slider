@@ -30,6 +30,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     onChange = () => {},
     max = 100,
     onComplete = () => {},
+    thumbPoint = 270,
+    variant = 'default',
   } = props;
 
   let moveStartValue: number;
@@ -78,7 +80,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      thumbPoint,
+      variant
     );
     return true;
   };
@@ -100,7 +104,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      thumbPoint,
+      variant
     );
 
     const ratio =
@@ -154,7 +160,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth as number
+    thumbBorderWidth as number,
+    thumbPoint,
+    variant
   );
 
   return {
