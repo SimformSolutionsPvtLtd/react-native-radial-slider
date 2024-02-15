@@ -1,6 +1,18 @@
 import type { ViewStyle, TextStyle, StyleProp } from 'react-native';
 import type { Linecap } from 'react-native-svg';
 
+type Enumerate<
+  N extends number,
+  Acc extends number[] = []
+> = Acc['length'] extends N
+  ? Acc[number]
+  : Enumerate<N, [...Acc, Acc['length']]>;
+
+export type Range<F extends number, T extends number> = Exclude<
+  Enumerate<T>,
+  Enumerate<F>
+>;
+
 type RadialSliderExcludedProps = {
   unitValueContentStyle?: StyleProp<ViewStyle>;
   markerCircleSize?: never;
@@ -46,6 +58,7 @@ export type LineContentProps = {
   fixedMarker?: boolean;
   value?: number;
   markerValueInterval?: number;
+  startAngle?: number;
 };
 
 export type TextTailProps = {
@@ -64,6 +77,7 @@ export type RadialSliderHookProps = {
   max?: number;
   variant?: 'radial-circle-slider' | string;
   step?: number;
+  startAngle?: number;
 };
 
 export type MarkerValueContentProps = {
@@ -90,6 +104,8 @@ export type RadialSliderAnimationHookProps = {
   onChange?: (v: number) => void;
   onComplete?: (v: number) => void;
   value: number;
+  variant?: string;
+  startAngle?: number;
 };
 
 export type NeedleContentProps = {
@@ -169,6 +185,12 @@ export type RadialSliderProps = {
    * Border color of thumb/knob.
    */
   thumbBorderColor?: string;
+  /**
+   * @description Starting angle position of the thumb/knob.
+   * @default 270
+   * @static {Range<0, 360>} startAngle - The starting angle should be a value within the Range of 0 to 360 (inclusive).
+   */
+  startAngle?: Range<0, 360>;
   /**
    * Size of marker line.
    */

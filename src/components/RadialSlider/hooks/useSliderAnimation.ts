@@ -18,7 +18,7 @@ interface StartCartesianProps {
   y: number;
 }
 
-const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
+const useSliderAnimation = (props: RadialSliderAnimationHookProps) => {
   const {
     step = 1,
     radius = 100,
@@ -30,6 +30,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     onChange = () => {},
     max = 100,
     onComplete = () => {},
+    startAngle = 270,
+    variant = 'default',
   } = props;
 
   let moveStartValue: number;
@@ -78,7 +80,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      startAngle,
+      variant
     );
     return true;
   };
@@ -100,7 +104,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      startAngle,
+      variant
     );
 
     const ratio =
@@ -154,7 +160,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth as number
+    thumbBorderWidth as number,
+    startAngle,
+    variant
   );
 
   return {
@@ -167,4 +175,4 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
   };
 };
 
-export default useSilderAnimation;
+export default useSliderAnimation;
