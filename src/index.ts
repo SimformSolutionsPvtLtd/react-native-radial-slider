@@ -1,1 +1,1 @@
-export * from './components/RadialSlider';
+export * from './components';

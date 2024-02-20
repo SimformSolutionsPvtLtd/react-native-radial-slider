@@ -1,4 +1,4 @@
-import useSilderAnimation from './useSilderAnimation';
+import useSliderAnimation from './useSliderAnimation';
 import useRadialSlider from './useRadialSlider';
 
-export { useRadialSlider, useSilderAnimation };
+export { useRadialSlider, useSliderAnimation };

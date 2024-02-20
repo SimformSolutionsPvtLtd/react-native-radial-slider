@@ -18,7 +18,7 @@ interface StartCartesianProps {
   y: number;
 }
 
-const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
+const useSliderAnimation = (props: RadialSliderAnimationHookProps) => {
   const {
     step = 1,
     radius = 100,
@@ -30,6 +30,8 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     onChange = () => {},
     max = 100,
     onComplete = () => {},
+    startAngle = 270,
+    variant = 'default',
   } = props;
 
   let moveStartValue: number;
@@ -78,7 +80,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      startAngle,
+      variant
     );
     return true;
   };
@@ -100,7 +104,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
       radius,
       sliderWidth,
       thumbRadius,
-      thumbBorderWidth as number
+      thumbBorderWidth as number,
+      startAngle,
+      variant
     );
 
     const ratio =
@@ -117,12 +123,14 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     nValue = Math.max(min, Math.min(max, nValue));
 
     setValue((prevState: number) => {
-      prevValue.current = Math.round(
-        Math.abs(nValue - prevState) > diff / 4 ? prevState : nValue
-      );
-      return Math.round(
-        Math.abs(nValue - prevState) > diff / 4 ? prevState : nValue
-      );
+      const roundedValue = parseFloat(nValue.toFixed(1));
+      prevValue.current =
+        Math.abs(roundedValue - prevState) > diff / 4
+          ? prevState
+          : roundedValue;
+      return Math.abs(roundedValue - prevState) > diff / 4
+        ? prevState
+        : roundedValue;
     });
 
     onChange(prevValue.current);
@@ -154,7 +162,9 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
     radius,
     sliderWidth,
     thumbRadius,
-    thumbBorderWidth as number
+    thumbBorderWidth as number,
+    startAngle,
+    variant
   );
 
   return {
@@ -167,4 +177,4 @@ const useSilderAnimation = (props: RadialSliderAnimationHookProps) => {
   };
 };
 
-export default useSilderAnimation;
+export default useSliderAnimation;
